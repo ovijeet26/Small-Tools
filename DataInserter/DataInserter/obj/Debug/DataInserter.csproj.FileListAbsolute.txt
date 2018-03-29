@@ -1,0 +1,18 @@
+c:\users\csircao\documents\visual studio 2013\Projects\DataInserter\DataInserter\bin\Debug\DataInserter.exe.config
+c:\users\csircao\documents\visual studio 2013\Projects\DataInserter\DataInserter\obj\Debug\DataInserter.csprojResolveAssemblyReference.cache
+c:\users\csircao\documents\visual studio 2013\Projects\DataInserter\DataInserter\bin\Debug\DataInserter.exe
+c:\users\csircao\documents\visual studio 2013\Projects\DataInserter\DataInserter\bin\Debug\DataInserter.pdb
+c:\users\csircao\documents\visual studio 2013\Projects\DataInserter\DataInserter\obj\Debug\DataInserter.exe
+c:\users\csircao\documents\visual studio 2013\Projects\DataInserter\DataInserter\obj\Debug\DataInserter.pdb
+D:\VisualStudio-II\DataInserter\DataInserter\bin\Debug\DataInserter.exe.config
+D:\VisualStudio-II\DataInserter\DataInserter\obj\Debug\DataInserter.exe
+D:\VisualStudio-II\DataInserter\DataInserter\obj\Debug\DataInserter.pdb
+C:\Users\csircao\Desktop\DataInserter\DataInserter\bin\Debug\DataInserter.exe.config
+C:\Users\csircao\Desktop\DataInserter\DataInserter\obj\Debug\DataInserter.exe
+C:\Users\csircao\Desktop\DataInserter\DataInserter\obj\Debug\DataInserter.pdb
+C:\Users\csircao\Desktop\DataInserter\DataInserter\bin\Debug\DataInserter.exe
+C:\Users\csircao\Desktop\DataInserter\DataInserter\bin\Debug\DataInserter.pdb
+C:\Users\csircao\Desktop\DataInserter\DataInserter\obj\Debug\DataInserter.csprojResolveAssemblyReference.cache
+C:\Users\csircao\Desktop\From Old Laptop\DataInserter\DataInserter\bin\Debug\DataInserter.exe.config
+C:\Users\csircao\Desktop\From Old Laptop\DataInserter\DataInserter\obj\Debug\DataInserter.exe
+C:\Users\csircao\Desktop\From Old Laptop\DataInserter\DataInserter\obj\Debug\DataInserter.pdb

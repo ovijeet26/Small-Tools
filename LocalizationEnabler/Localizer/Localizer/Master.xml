@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ScanningTypeArch" xml:space="preserve">
+    <value>SCT Archive</value>
+  </data>
+  <data name="ScanningTypeOnline" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ScanningTypePMI" xml:space="preserve">
+    <value>PMI</value>
+  </data>
+  <data name="ScanTypeFeature" xml:space="preserve">
+    <value>Feature Assessment</value>
+  </data>
+  <data name="ScanTypeInv" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="ScanTypePerf" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="RulePercentAHUHave100OutdoorAir" xml:space="preserve">
+    <value>{0} % of AHUs appear to have 100% Outdoor Air.</value>
+  </data>
+  <data name="RulePercentAHUHaveEconomizerStrategy" xml:space="preserve">
+    <value>{0} % of AHUs do appear to have an economizer strategy.</value>
+  </data>
+  <data name="RulePercentAHUHaveFansAt100" xml:space="preserve">
+    <value>{0} % of AHUs appear to have fans that are always running at maximum speed.</value>
+  </data>
+  <data name="RulePercentAHULackResetStrategy" xml:space="preserve">
+    <value>{0} % of AHUs appear to lack of reset strategy.</value>
+  </data>
+  <data name="RulePercentTotalDeviceUnscheduled" xml:space="preserve">
+    <value>{0} % of total devices appear to be unscheduled.</value>
+  </data>
+  <data name="RulePluralDirtyFilter" xml:space="preserve">
+    <value>{0} dirty filters were found.</value>
+  </data>
+  <data name="RulePluralDuplicateBACNetId" xml:space="preserve">
+    <value>{0} duplicate BACnet IDs were found.</value>
+  </data>
+  <data name="RulePluralUnboundReference" xml:space="preserve">
+    <value>{0} unbound references were found.</value>
+  </data>
+  <data name="RulePluralWastefulHeatingCoolingValve" xml:space="preserve">
+    <value>{0} wasteful Heating/Cooling valves were found.</value>
+  </data>
+  <data name="RuleSingleDirtyFilter" xml:space="preserve">
+    <value>{0} dirty filter was found.</value>
+  </data>
+  <data name="RuleSingleDuplicateBACNetId" xml:space="preserve">
+    <value>{0} duplicate BACnet ID was found.</value>
+  </data>
+  <data name="RuleSingleUnboundReference" xml:space="preserve">
+    <value>{0} unbound reference was found.</value>
+  </data>
+  <data name="RuleSingleWastefulHeatingCoolingValve" xml:space="preserve">
+    <value>{0} wasteful Heating/Cooling valve was found.</value>
+  </data>
+  <data name="KeyTaskDeleteDefaultUser" xml:space="preserve">
+    <value>Please consider deleting or disabling the default Metasys user.</value>
+  </data>
+  <data name="KeyTaskDiscussSiteDirectorOptions" xml:space="preserve">
+    <value>Discuss site director options with your local sales representative.</value>
+  </data>
+  <data name="KeyTaskReachOutToRFSM" xml:space="preserve">
+    <value>Please reach out to your RFSM to discuss {0} migration options.</value>
+  </data>
+  <data name="KeyTaskReachOutToRFSMs" xml:space="preserve">
+    <value>Please reach out to your RFSMs to discuss {0} migration options.</value>
+  </data>
+  <data name="KeyTaskSearchPatchInfo" xml:space="preserve">
+    <value>Please consider researching patch information (i.e. - flash sheets) in order to determine whether patching is necessary.</value>
+  </data>
+  <data name="KeyTaskUpgradeLegacyNCM" xml:space="preserve">
+    <value>Please consider upgrading legacy NCMs.</value>
+  </data>
+  <data name="KeyTaskUpgradeMetasysToLatest" xml:space="preserve">
+    <value>Consider upgrading to the latest version of Metasys. Contact your local sales representative for more information on Metasys {0}</value>
+  </data>
+  <data name="RuleBatteryFaulty" xml:space="preserve">
+    <value>{0} Battery is faulty, preventing backup capabilities before restarting. Please replace battery.</value>
+  </data>
+  <data name="RuleCurrentMetasysVersionIsOld" xml:space="preserve">
+    <value>The current Metasys server version is {0}. Ask your local sales representative about the latest version of Metasys.</value>
+  </data>
+  <data name="RuleDefaultUser" xml:space="preserve">
+    <value>{0} it apears that the default user.</value>
+  </data>
+  <data name="RuleDeviceExceedsCPULimitation" xml:space="preserve">
+    <value>{0} device exceeds its CPU usage limitation of {1} %.</value>
+  </data>
+  <data name="RuleExceedsMemoryLimitation" xml:space="preserve">
+    <value>{0} exceeds its memory usage limitation of {1} %.</value>
+  </data>
+  <data name="RuleFlashUsageExceedsLimitation" xml:space="preserve">
+    <value>{0}'s flash usage exceeds the limitation of {1} %.</value>
+  </data>
+  <data name="RulePluralLegacyNCM" xml:space="preserve">
+    <value>{0} legacy NCMs were found.</value>
+  </data>
+  <data name="RuleSingleLegacyNCM" xml:space="preserve">
+    <value>{0} legacy NCM was found.</value>
+  </data>
+  <data name="RuleWinXPEmbedded" xml:space="preserve">
+    <value>'{0}' engines use Windows XP Embedded operating system, which is no longer supported by Microsoft.</value>
+  </data>
+  <data name="RuleOldOsVersion" xml:space="preserve">
+    <value>'{0}' engine uses {1} operating system, which is no longer supported by Microsoft.</value>
+  </data>
+  <data name="RuleInvCPUUsage" xml:space="preserve">
+    <value>CPU Usage</value>
+  </data>
+  <data name="RuleInvDefaultMetasysCredActive" xml:space="preserve">
+    <value>It appears that the default Metasys credentials are active.</value>
+  </data>
+  <data name="RuleInvDeviceExceedsRecLimitController" xml:space="preserve">
+    <value>Device exceeds the {0} recommended limitation of {1} controllers.</value>
+  </data>
+  <data name="ReportSupportRuleInvDeviceExceedsRecLimitController" xml:space="preserve">
+    <value>The N2 Bus is the Johnson Controls® field communications trunk that links Application Specific Controllers (ASCs) to a supervisory controller. ASCs include the DX-9100, Air Handling Unit (AHU), Unitary (UNT) Controller, VAV controllers, and VAV Modular Assembly (VMA) devices. The NCM can coordinate the activities of all these devices.</value>
+  </data>
+  <data name="RuleInvDeviceExceedsRecLimitObject" xml:space="preserve">
+    <value>Device exceeds the {0} recommended limitation of {1} objects.</value>
+  </data>
+  <data name="ReportRuleInvDeviceExceedsRecLimitObject" xml:space="preserve">
+    <value>{0} Network Control Module (NCM) device(s) exceeded recommended limitation of 1500 object count per NCM.</value>
+  </data>
+  <data name="RuleInvEnginesDiscontinuedNoUpgrade41" xml:space="preserve">
+    <value>{0} engines are discontinued and cannot be upgraded past 4.1, due to insufficient flash memory.</value>
+  </data>
+  <data name="RuleInvExceedFieldControllerLonwork" xml:space="preserve">
+    <value>{0} exceeds field controllers limitation. It supports up to {1} field controllers only on the LONWORKS port.</value>
+  </data>
+  <data name="RuleInvExceedFieldControllerN2" xml:space="preserve">
+    <value>{0} exceeds field controllers limitation. It supports up to {1} field controllers only on each N2 Bus or BACnet MS/TP trunkports one N2 Bus trunk with up to 32 N2 field controllers.</value>
+  </data>
+  <data name="RuleInvExceedFieldControllerOnly" xml:space="preserve">
+    <value>{0} exceeds field controllers limitation. It supports up to {1} field controllers only.</value>
+  </data>
+  <data name="RuleInvFlashMemory" xml:space="preserve">
+    <value>Flash Memory</value>
+  </data>
+  <data name="RuleInvMemoryUsage" xml:space="preserve">
+    <value>Memory Usage</value>
+  </data>
+  <data name="RuleInvNAEBatteryCondition" xml:space="preserve">
+    <value>NAE Battery Condition</value>
+  </data>
+  <data name="RuleInvPerformanceRule" xml:space="preserve">
+    <value>Performance Rule</value>
+  </data>
+  <data name="RuleInvSiteDirectorExceeds" xml:space="preserve">
+    <value>The Metasys site director exceeds recommended supervisory device limitation. An {0} supports up to {1} devices.</value>
+  </data>
+  <data name="RuleInvSupDeviceCriticalPatch" xml:space="preserve">
+    <value>{0} of {1} scanned supervisory devices have critical patches available.</value>
+  </data>
+  <data name="ObjCatAdministrative" xml:space="preserve">
+    <value>Administrative</value>
+  </data>
+  <data name="ObjCatCriticalEnvironment" xml:space="preserve">
+    <value>CriticalEnvironment</value>
+  </data>
+  <data name="ObjCatCustom1" xml:space="preserve">
+    <value>Custom1</value>
+  </data>
+  <data name="ObjCatCustom11" xml:space="preserve">
+    <value>Custom11</value>
+  </data>
+  <data name="ObjCatCustom12" xml:space="preserve">
+    <value>Custom12</value>
+  </data>
+  <data name="ObjCatCustom2" xml:space="preserve">
+    <value>Custom2</value>
+  </data>
+  <data name="ObjCatCustom3" xml:space="preserve">
+    <value>Custom3</value>
+  </data>
+  <data name="ObjCatCustom4" xml:space="preserve">
+    <value>Custom4</value>
+  </data>
+  <data name="ObjCatCustom5" xml:space="preserve">
+    <value>Custom5</value>
+  </data>
+  <data name="ObjCatCustom6" xml:space="preserve">
+    <value>Custom6</value>
+  </data>
+  <data name="ObjCatCustom66" xml:space="preserve">
+    <value>Custom66</value>
+  </data>
+  <data name="ObjCatCustom7" xml:space="preserve">
+    <value>Custom7</value>
+  </data>
+  <data name="ObjCatCustom8" xml:space="preserve">
+    <value>Custom8</value>
+  </data>
+  <data name="ObjCatCustom9" xml:space="preserve">
+    <value>Custom9</value>
+  </data>
+  <data name="ObjCatEnergy" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="ObjCatFire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="ObjCatGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="ObjCatHvac" xml:space="preserve">
+    <value>Hvac</value>
+  </data>
+  <data name="ObjCatLighting" xml:space="preserve">
+    <value>Lighting</value>
+  </data>
+  <data name="ObjCatPower" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="ObjCatSecurity" xml:space="preserve">
+    <value>Bhoopendra's Security in Master</value>
+  </data>
+  <data name="ObjCatSystem" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="AISensorCalibrationCheck" xml:space="preserve">
+    <value>AI - Sensor Calibration Check</value>
+  </data>
+  <data name="AOValveDamperResetOutputs" xml:space="preserve">
+    <value>AO - Valve/Damper/Reset Outputs</value>
+  </data>
+  <data name="BIStatusOperationCheck" xml:space="preserve">
+    <value>BI - Status Operation Check</value>
+  </data>
+  <data name="BOStartStopOperationalCheck" xml:space="preserve">
+    <value>BO - Start/Stop Operational Check</value>
+  </data>
+  <data name="AHUSupplyingCooledAir" xml:space="preserve">
+    <value>Your air handling units appear to be supplying cooled air to your building while outdoor air conditions are normal for heating.  This is an indicator of potential energy waste.</value>
+  </data>
+  <data name="AHUSupplyingHeatedAir" xml:space="preserve">
+    <value>Your air handling units appear to be supplying heated air to your building while outdoor air conditions are normal for cooling.  This is an indicator of potential energy waste.</value>
+  </data>
+  <data name="AllUserAccountsHaveAdminPrevilege" xml:space="preserve">
+    <value>All user accounts of the Metasys system have administrative privileges. Please determine if this is necessary.</value>
+  </data>
+  <data name="DefaultMetasysPasswordDetected" xml:space="preserve">
+    <value>The default Metasys user account and password were detected and should be modified.</value>
+  </data>
+  <data name="HeatingCoolingWasteWhenAHUConditioning" xml:space="preserve">
+    <value>Heating and cooling waste occurs when the air handling unit is conditioning air rather than making use of suitable outdoor air.</value>
+  </data>
+  <data name="NoAreaForImprovementIdentified" xml:space="preserve">
+    <value>No specific area for improvement was identified within &lt;i&gt;Metasys&lt;/i&gt; regarding the security of your site.</value>
+  </data>
+  <data name="NoAreaForImprovementIdentifiedInMetasys" xml:space="preserve">
+    <value>No specific area for improvement was identified within Metasys regarding the security of your site.</value>
+  </data>
+  <data name="NoBrokenObjectReferenceFound" xml:space="preserve">
+    <value>No broken object reference was found within Metasys that should be investigated. A broken object reference indicates that a process (programming logic, schedules, trend studies, graphics, etc.) cannot find an object in the system. The severity of this item depends on the process that cannot find the object it is trying to control.</value>
+  </data>
+  <data name="NoDirtyFilterNeedToBeReplaced" xml:space="preserve">
+    <value>No dirty filter needs to be replaced.</value>
+  </data>
+  <data name="NoDuplicateBaCNetIdentifierShouleBeReplaced" xml:space="preserve">
+    <value>No duplicate BACnet identifier should be replaced with unique identifiers. Duplicate BACnet identifiers cause communications problems when non-Metasys controllers are added to the network.</value>
+  </data>
+  <data name="NoEnoughDataComfortAndHealth" xml:space="preserve">
+    <value>Not enough data was found regarding Comfort and Health</value>
+  </data>
+  <data name="NoInputPointOnAHUConnectedToSensor" xml:space="preserve">
+    <value>No input point on your air handling units is connected to sensors that will continue to require regular service checks to ensure that the sensors in your system stay accurate. Without accurate sensory input, your building control systems may waste energy, decrease your equipment reliability and longevity, and cause occupant discomfort.</value>
+  </data>
+  <data name="NoMetasysAlarmEventShouldBeInvestigated" xml:space="preserve">
+    <value>No Metasys alarm or event should be investigated and acknowledged. Excessive alarming could be an indication of equipment issues or other underlying root causes that need to be addressed. Or it could mean your alarm thresholds could be adjusted to produce fewer alarms so that operators can focus on alarms that are true indicators of problems.</value>
+  </data>
+  <data name="NoMetasysUserAccountHasNotBeenUsed" xml:space="preserve">
+    <value>No Metasys user account has not been used within the last six months. Consider deleting these dormant accounts.</value>
+  </data>
+  <data name="NoNetworkControllerRequireSecurityUpdate" xml:space="preserve">
+    <value>No network controller requires security updates to ensure your building automation network remains secure.</value>
+  </data>
+  <data name="NoNetworkControllerUnderperforming" xml:space="preserve">
+    <value>No network controller appears to be underperforming based on current CPU and memory conditions.</value>
+  </data>
+  <data name="NoNetworkControllerUseUnsupportedSoftware" xml:space="preserve">
+    <value>No network controller use unsupported software that should be upgraded or replaced. Unsupported software no longer receives regular updates to ensure it is protected against the most recent cyber security threats.</value>
+  </data>
+  <data name="NoOutputPointOnAHUConnected" xml:space="preserve">
+    <value>No output point on your air handling units is connected to motors, switches, valves, and dampers that will continue to require regular service checks to ensure that these devices continue to operate properly and efficiently.</value>
+  </data>
+  <data name="NoOverridenPointShouldBeInvestigated" xml:space="preserve">
+    <value>No overridden point should be investigated and released if no longer needed. Overridden point can be a source of energy waste and comfort issues.</value>
+  </data>
+  <data name="NoPointTrendedInMetasys" xml:space="preserve">
+    <value>No point could be trended within Metasys that would help provide a more thorough diagnosis of your Metasys system and equipment.</value>
+  </data>
+  <data name="NoSpecificAreaForImprovementInMetasys" xml:space="preserve">
+    <value>No specific area for improvement was identified within your &lt;i&gt;Metasys&lt;/i&gt; system regarding the maintenance and reliability of your site.</value>
+  </data>
+  <data name="NoSpecificAreaForImprovementInMetasysStandards" xml:space="preserve">
+    <value>No specific area for improvement was identified within Metasys regarding the standards of your site. These can include duplicate BACnet identifiers and underutilization of Metasys productivity features such as authorization categories. Refer to this section in the Site Details for specific issues found on your site.</value>
+  </data>
+  <data name="NoSpecificAreaForImprovementStandards" xml:space="preserve">
+    <value>Ensuring your system follows published standards for &lt;i&gt;Metasys&lt;/i&gt; configuration helps avoid issues and helps increase staff productivity through use of advanced features. &lt;br&gt;&lt;br&gt;No specific area for improvement was identified regarding &lt;i&gt;Metasys&lt;/i&gt; standards.</value>
+  </data>
+  <data name="NoSpecificAreaForReliabilityImprovementInMetasys" xml:space="preserve">
+    <value>No specific area for reliability improvement was identified within Metasys. These issues can include unreliable points, backup battery issues, excessive alarming, overridden points, dirty filters, overloaded and offline controllers or broken object references. Refer to the section in Site Details for specific issues found on your site.</value>
+  </data>
+  <data name="NotEnoughDataEnergyPerfSaving" xml:space="preserve">
+    <value>Not enough data was found regarding Energy Performance and Savings.</value>
+  </data>
+  <data name="OutdoorAirTempExceededNormalCoolingCondition" xml:space="preserve">
+    <value>We show that the outdoor air temperature has exceeded the normal conditions for cooling, yet the air handling units continue to provide heating output. This is an indication of potential energy waste.</value>
+  </data>
+  <data name="OutdoorAirTempExceededNormalHeatingCondition" xml:space="preserve">
+    <value>We show that the outdoor air temperature has exceeded the normal conditions for heating, yet the air handling units continue to provide cooling output. This is an indication of potential energy waste.</value>
+  </data>
+  <data name="PercentAHUFanMotorsModulatingOnDemand" xml:space="preserve">
+    <value>{0} % of your air handling unit fan motors appear to be properly modulating based on demand, saving energy by not running at full speed when not required.</value>
+  </data>
+  <data name="PercentAHUFanMotorsRunning100" xml:space="preserve">
+    <value>Up to {0}% of the air handling unit fan motors are always running at maximum speed.  Not only is this a sign of wasted energy regarding the fan motors, but it may suggest the air handling unit is not set up to run as efficiently as it could be. Consider adding variable speed drive (VSD) motors that can modulate the fan speeds for more efficient operation.</value>
+  </data>
+  <data name="PercentAHUNotHaveEconomizerStragey" xml:space="preserve">
+    <value>An economizer regulates the amount of outside air to bring into the building to reduce the load on the cooling system.&lt;br&gt;&lt;br&gt;Up to {0}% of your air handling units do not have an economizer strategy. Economizer strategies can save up to 30% of a building’s total energy consumption when implemented properly (&lt;u&gt;&lt;a&gt;http://aceee.org/files/proceedings/2014/data/papers/3-1007.pdf&lt;/a&gt;&lt;/u&gt;). Consider adding an economizer strategy to this equipment as appropriate.</value>
+  </data>
+  <data name="PercentAHURunningWithoutResetStrategy" xml:space="preserve">
+    <value>A reset strategy is used to reduce the air handling system capacity to the minimum necessary level in order to improve energy efficiency.&lt;br&gt;&lt;br&gt;Up to {0}% of the air handling units on your site are running without a reset strategy.&lt;br&gt;&lt;br&gt;As seasons change during the year, peak cooling loads of a building also change. Yet most systems run 100% of the time at a fixed set point which causes overcooling and reheating to occur resulting in excess energy use. A reset strategy helps to ensure the supply air temperature and static pressure set points of your air handling units are reset at appropriate times of the year.</value>
+  </data>
+  <data name="PercentAHUUseEconomizer" xml:space="preserve">
+    <value>{0} % of your air handling units use an economizer strategy, which provides energy efficiency benefits.</value>
+  </data>
+  <data name="PercentAHUUseResetStrategy" xml:space="preserve">
+    <value>{0} % of your air handling units use a reset strategy, which provides energy efficiency benefits.</value>
+  </data>
+  <data name="PercentEquipmentFollowingSchedule" xml:space="preserve">
+    <value>{0} % of the HVAC equipment that is controlled by Metasys appears to be following an implemented schedule, helping to avoid energy waste when the building is not occupied.</value>
+  </data>
+  <data name="PercentHVACReqNotScheduled" xml:space="preserve">
+    <value>Up to {0}% of the HVAC equipment controlled by &lt;i&gt;Metasys&lt;/i&gt; does not appear to be scheduled, which may mean it is running when the building is not occupied. Adding schedules can result in a significant reduction of a building’s energy use.</value>
+  </data>
+  <data name="PerformanceReviewConducted" xml:space="preserve">
+    <value>A performance review of your &lt;i&gt;Metasys&lt;/i&gt; system was conducted on {0}.  During this review, approximately {1}% of your site was evaluated.  This report contains a summary of the results.</value>
+  </data>
+  <data name="PluralAreaForImprovementIdentified" xml:space="preserve">
+    <value>{0} specific areas for improvement were identified within &lt;i&gt;Metasys&lt;/i&gt; regarding the security of your site.</value>
+  </data>
+  <data name="PluralAreaForImprovementIdentifiedInMetasys" xml:space="preserve">
+    <value>{0} specific areas for improvement were identified within Metasys regarding the security of your site.</value>
+  </data>
+  <data name="PluralBrokenObjectReferenceFound" xml:space="preserve">
+    <value>{0} broken object references were found within Metasys that should be investigated. A broken object reference indicates that a process (programming logic, schedules, trend studies, graphics, etc.) cannot find an object in the system. The severity of this item depends on the process that cannot find the object it is trying to control.</value>
+  </data>
+  <data name="PluralDirtyFilterNeedToBeReplaced" xml:space="preserve">
+    <value>{0} dirty filters need to be replaced.</value>
+  </data>
+  <data name="PluralDuplicateBaCNetIdentifierShouleBeReplaced" xml:space="preserve">
+    <value>{0} duplicate BACnet identifiers should be replaced with unique identifiers. Duplicate BACnet identifiers cause communications problems when non-Metasys controllers are added to the network.</value>
+  </data>
+  <data name="PluralHVACEquipmentDeviatingSetPoint" xml:space="preserve">
+    <value>{0} pieces of HVAC equipment in your building may be deviating too far from desirable set point conditions. This may cause issues with comfort or temperature-dependent processes.</value>
+  </data>
+  <data name="PluralHVACRequirementIsScheduled" xml:space="preserve">
+    <value>While {0}% of the HVAC equipments in your building is scheduled, consider reviewing those schedules on a regular basis to ensure they still meet the needs of your facility.</value>
+  </data>
+  <data name="PluralIndicatorHVACEquipmentDeviatingSetPoint" xml:space="preserve">
+    <value>Providing productive environments for building occupants or critical processes is a key function of any BAS system. &lt;i&gt;Metasys&lt;/i&gt; monitors temperature and airflow and automates the control of equipment to maintain the desired conditions for your facility. &lt;br&gt;&lt;br&gt;There are indicators that {0} pieces of HVAC equipment in your building may be deviating from desirable set point conditions. This can cause overheating or overcooling of zones. In addition to causing comfort issues or disrupting processes that are temperature dependent, this overheating/ cooling can also be a source of energy waste. It could also be an indicator of equipment issues such as leaking valves, failed electric reheat coils, faulty damper linkages, or faulty sensors.</value>
+  </data>
+  <data name="PluralInputPointOnAHUConnectedToSensor" xml:space="preserve">
+    <value>{0} input points on your air handling units are connected to sensors that will continue to require regular service checks to ensure that the sensors in your system stay accurate. Without accurate sensory input, your building control systems may waste energy, decrease your equipment reliability and longevity, and cause occupant discomfort.</value>
+  </data>
+  <data name="PluralMetasysAlarmEventShouldBeInvestigated" xml:space="preserve">
+    <value>{0} Metasys alarms or events should be investigated and acknowledged. Excessive alarming could be an indication of equipment issues or other underlying root causes that need to be addressed. Or it could mean your alarm thresholds could be adjusted to produce fewer alarms so that operators can focus on alarms that are true indicators of problems.</value>
+  </data>
+  <data name="PluralMetasysUserAccountHaveNotBeenUsed" xml:space="preserve">
+    <value>{0} Metasys user accounts have not been used within the last six months.  Consider deleting these dormant accounts.</value>
+  </data>
+  <data name="PluralNetworkControllerRequireSecurityUpdate" xml:space="preserve">
+    <value>{0} network controllers require security updates to ensure your building automation network remains secure.</value>
+  </data>
+  <data name="PluralNetworkControllerUnderperforming" xml:space="preserve">
+    <value>{0} network controllers appear to be underperforming based on current CPU and memory conditions and should be investigated.</value>
+  </data>
+  <data name="PluralNetworkControllerUseUnsupportedSoftware" xml:space="preserve">
+    <value>{0} network controllers uses unsupported software that should be upgraded or replaced. Unsupported software no longer receives regular updates to ensure it is protected against the most recent cyber security threats.</value>
+  </data>
+  <data name="PluralOpportunityForPatchOrUpgrade" xml:space="preserve">
+    <value>{0} opportunities for patches or upgrades to defend against cyber security threats</value>
+  </data>
+  <data name="PluralOpportunityToImproveAccountPassword" xml:space="preserve">
+    <value>{0} opportunities to improve user account and passwords</value>
+  </data>
+  <data name="PluralOutputPointOnAHUConnected" xml:space="preserve">
+    <value>{0} output points on your air handling units are connected to motors, switches, valves, and dampers that will continue to require regular service checks to ensure that these devices continue to operate properly and efficiently.</value>
+  </data>
+  <data name="PluralOverridenPointShouldBeInvestigated" xml:space="preserve">
+    <value>{0} overridden points should be investigated and released if no longer needed. Overridden points can be a source of energy waste and comfort issues.</value>
+  </data>
+  <data name="PluralPointTrendedInMetasys" xml:space="preserve">
+    <value>{0} points could be trended within Metasys that would help provide a more thorough diagnosis of your Metasys system and equipment.</value>
+  </data>
+  <data name="PluralSpecificAreaForImprovementInMetasys" xml:space="preserve">
+    <value>{0} specific areas for improvement were identified within your &lt;i&gt;Metasys&lt;/i&gt; system regarding the maintenance and reliability of your site.</value>
+  </data>
+  <data name="PluralSpecificAreaForImprovementInMetasysStandards" xml:space="preserve">
+    <value>{0} specific areas for improvement were identified within Metasys regarding the standards of your site. These can include duplicate BACnet identifiers and underutilization of Metasys productivity features such as authorization categories. Refer to this section in the Site Details for specific issues found on your site.</value>
+  </data>
+  <data name="PluralSpecificAreaForImprovementStandards" xml:space="preserve">
+    <value>Ensuring your system follows published standards for &lt;i&gt;Metasys&lt;/i&gt; configuration helps avoid issues and helps increase staff productivity through use of advanced features. &lt;br&gt;&lt;br&gt;{0} specific areas for improvement were identified regarding &lt;i&gt;Metasys&lt;/i&gt; standards.</value>
+  </data>
+  <data name="PluralSpecificAreaForReliabilityImprovementInMetasys" xml:space="preserve">
+    <value>{0} specific areas for reliability improvements were identified within Metasys. These issues can include unreliable points, backup battery issues, excessive alarming, overridden points, dirty filters, overloaded and offline controllers or broken object references. Refer to the section in Site Details for specific issues found on your site.</value>
+  </data>
+  <data name="ProperlyTunedBuildingProvideEnergySavings" xml:space="preserve">
+    <value>A properly tuned building automation system can provide between 5-20% energy savings, according to a study by the U.S. Department of Energy (Katipamula et al, “Improving Commercial Building Operations thru Building Re-tuning: Meta-Analysis”, &lt;u&gt;&lt;a&gt;http://buildingretuning.pnnl.gov/documents/pnnl_sa_110686.pdf&lt;/a&gt;&lt;/u&gt;). Several of the features of &lt;i&gt;Metasys&lt;/i&gt; focus on the energy performance and savings of a building. This section provides analysis of your site with regards to these features.</value>
+  </data>
+  <data name="SecurityIsConcernForAllNetworkSystem" xml:space="preserve">
+    <value>Security is a growing concern for all networked systems, and &lt;i&gt;Metasys&lt;/i&gt; is no exception. A secure &lt;i&gt;Metasys&lt;/i&gt; system decreases the likelihood of unauthorized access to the building systems on your site.</value>
+  </data>
+  <data name="SingleAreaForImprovementIdentified" xml:space="preserve">
+    <value>1 specific area for improvement was identified within &lt;i&gt;Metasys&lt;/i&gt; regarding the security of your site.</value>
+  </data>
+  <data name="SingleAreaForImprovementIdentifiedInMetasys" xml:space="preserve">
+    <value>1 specific area for improvement was identified within Metasys regarding the security of your site.</value>
+  </data>
+  <data name="SingleBrokenObjectReferenceFound" xml:space="preserve">
+    <value>1 broken object reference was found within Metasys that should be investigated. A broken object reference indicates that a process (programming logic, schedules, trend studies, graphics, etc.) cannot find an object in the system. The severity of this item depends on the process that cannot find the object it is trying to control.</value>
+  </data>
+  <data name="SingleDirtyFilterNeedToBeReplaced" xml:space="preserve">
+    <value>1 dirty filter needs to be replaced.</value>
+  </data>
+  <data name="SingleDuplicateBaCNetIdentifierShouleBeReplaced" xml:space="preserve">
+    <value>1 duplicate BACnet identifier should be replaced with unique identifiers. Duplicate BACnet identifiers cause communications problems when non-Metasys controllers are added to the network.</value>
+  </data>
+  <data name="SingleHVACEquipmentDeviatingSetPoint" xml:space="preserve">
+    <value>1 piece of HVAC equipment in your building may be deviating too far from desirable set point conditions. This may cause issues with comfort or temperature-dependent processes.</value>
+  </data>
+  <data name="SingleHVACRequirementIsScheduled" xml:space="preserve">
+    <value>While 1 of the HVAC equipments in your building is scheduled, consider reviewing this schedule on a regular basis to ensure it still meets the needs of your facility.</value>
+  </data>
+  <data name="SingleIndicatorHVACEquipmentDeviatingSetPoint" xml:space="preserve">
+    <value>Providing productive environments for building occupants or critical processes is a key function of any BAS system. &lt;i&gt;Metasys&lt;/i&gt; monitors temperature and airflow and automates the control of equipment to maintain the desired conditions for your facility. &lt;br&gt;&lt;br&gt;There are indicators that 1 piece of HVAC equipment in your building may be deviating from desirable set point conditions. This can cause overheating or overcooling of zones. In addition to causing comfort issues or disrupting processes that are temperature dependent, this overheating/ cooling can also be a source of energy waste. It could also be an indicator of equipment issues such as leaking valves, failed electric reheat coils, faulty damper linkages, or faulty sensors.</value>
+  </data>
+  <data name="SingleInputPointOnAHUConnectedToSensor" xml:space="preserve">
+    <value>1 input point on your air handling units is connected to sensors that will continue to require regular service checks to ensure that the sensors in your system stay accurate. Without accurate sensory input, your building control systems may waste energy, decrease your equipment reliability and longevity, and cause occupant discomfort.</value>
+  </data>
+  <data name="SingleMetasysAlarmEventShouldBeInvestigated" xml:space="preserve">
+    <value>1 Metasys alarm or event should be investigated and acknowledged. Excessive alarming could be an indication of equipment issues or other underlying root causes that need to be addressed. Or it could mean your alarm thresholds could be adjusted to produce fewer alarms so that operators can focus on alarms that are true indicators of problems.</value>
+  </data>
+  <data name="SingleMetasysUserAccountHasNotBeenUsed" xml:space="preserve">
+    <value>1 Metasys user account has not been used within the last six months. Consider deleting this dormant account.</value>
+  </data>
+  <data name="SingleNetworkControllerRequireSecurityUpdate" xml:space="preserve">
+    <value>1 network controller requires security updates to ensure your building automation network remains secure. </value>
+  </data>
+  <data name="SingleNetworkControllerUnderperforming" xml:space="preserve">
+    <value>1 network controller appears to be underperforming based on current CPU and memory conditions and should be investigated.</value>
+  </data>
+  <data name="SingleNetworkControllerUseUnsupportedSoftware" xml:space="preserve">
+    <value>1 network controller use unsupported software that should be upgraded or replaced. Unsupported software no longer receives regular updates to ensure it is protected against the most recent cyber security threats.</value>
+  </data>
+  <data name="SingleOpportunityForPatchOrUpgrade" xml:space="preserve">
+    <value>1 opportunity for patches or upgrades to defend against cyber security threats</value>
+  </data>
+  <data name="SingleOpportunityToImproveAccountPassword" xml:space="preserve">
+    <value>1 opportunity to improve user account and passwords</value>
+  </data>
+  <data name="SingleOutputPointOnAHUConnected" xml:space="preserve">
+    <value>1 output point on your air handling units is connected to motors, switches, valves, and dampers that will continue to require regular service checks to ensure that these devices continue to operate properly and efficiently.</value>
+  </data>
+  <data name="SIngleOverridenPointShouldBeInvestigated" xml:space="preserve">
+    <value>1 overridden point should be investigated and released if no longer needed. Overridden point can be a source of energy waste and comfort issues.</value>
+  </data>
+  <data name="SinglePointTrendedInMetasys" xml:space="preserve">
+    <value>1 point could be trended within Metasys that would help provide a more thorough diagnosis of your Metasys system and equipment.</value>
+  </data>
+  <data name="SingleSpecificAreaForImprovementInMetasys" xml:space="preserve">
+    <value>1 specific area for improvement was identified within your &lt;i&gt;Metasys&lt;/i&gt; system regarding the maintenance and reliability of your site.</value>
+  </data>
+  <data name="SingleSpecificAreaForImprovementInMetasysStandards" xml:space="preserve">
+    <value>1 specific area for improvement was identified within Metasys regarding the standards of your site. These can include duplicate BACnet identifiers and underutilization of Metasys productivity features such as authorization categories. Refer to this section in the Site Details for specific issues found on your site.</value>
+  </data>
+  <data name="SingleSpecificAreaForImprovementStandards" xml:space="preserve">
+    <value>Ensuring your system follows published standards for &lt;i&gt;Metasys&lt;/i&gt; configuration helps avoid issues and helps increase staff productivity through use of advanced features. &lt;br&gt;&lt;br&gt;1 specific area for improvement was identified regarding &lt;i&gt;Metasys&lt;/i&gt; standards.</value>
+  </data>
+  <data name="SingleSpecificAreaForReliabilityImprovementInMetasys" xml:space="preserve">
+    <value>1 specific area for reliability improvement was identified within Metasys. These issues can include unreliable points, backup battery issues, excessive alarming, overridden points, dirty filters, overloaded and offline controllers or broken object references. Refer to the section in Site Details for specific issues found on your site.</value>
+  </data>
+  <data name="SiteCouldBetterUseObjectAuorization" xml:space="preserve">
+    <value>The site could make better use of object authorization categories (e.g. General, Energy, HVAC, Fire, Security, Custom, etc.). Consider using the authorization categories of objects to allow user access privileges and intelligent alarm routing.</value>
+  </data>
+  <data name="SiteHasLatestMetasysVersion" xml:space="preserve">
+    <value>This site is the latest version of &lt;i&gt;Metasys&lt;/i&gt;.</value>
+  </data>
+  <data name="UpgradingAndUpdatingSoftware" xml:space="preserve">
+    <value>Upgrading and updating software is one of five key security countermeasures recommended by the Department of Homeland Security Control Systems Security Program (&lt;u&gt;&lt;a&gt;https://ics-cert.us-cert.gov/sites/default/files/recommended_practices/DHS%20Bulletin_Feb%202005%20R2_S508C.pdf&lt;/a&gt;&lt;/u&gt;).</value>
+  </data>
+  <data name="YouAreUsingOldMetasys" xml:space="preserve">
+    <value>You are using an old version of &lt;i&gt;Metasys&lt;/i&gt;. The latest version of &lt;i&gt;Metasys&lt;/i&gt; is {0}.</value>
+  </data>
+  <data name="YourSystemNotAtCurrentVersion" xml:space="preserve">
+    <value>Your system is not at the current version. Upgrading to the latest version would provide significant security enhancements – including secure, encrypted communications with HTTPS.</value>
+  </data>
+  <data name="PerfIssueAHUwith100OutdoorAir" xml:space="preserve">
+    <value>AHU With 100% Outdoor Air</value>
+  </data>
+  <data name="PerfIssueAHUwithoutEconomizer" xml:space="preserve">
+    <value>AHU Without Economizer</value>
+  </data>
+  <data name="PerfIssueAHUwithoutResetStrategy" xml:space="preserve">
+    <value>AHU without reset strategy</value>
+  </data>
+  <data name="PerfIssueCLGValveOpen" xml:space="preserve">
+    <value>CLG Valve Open</value>
+  </data>
+  <data name="PerfIssueDirtyFilter" xml:space="preserve">
+    <value>Dirty Filter</value>
+  </data>
+  <data name="PerfIssueEconomizerIssue" xml:space="preserve">
+    <value>Economizer Issue</value>
+  </data>
+  <data name="PerfIssueFanAlwaysRunning100" xml:space="preserve">
+    <value>Fan always running at maximum speed</value>
+  </data>
+  <data name="PerfIssueHTGValveOpen" xml:space="preserve">
+    <value>HTG Valve Open</value>
+  </data>
+  <data name="PerfIssueOutDoorAirTemp" xml:space="preserve">
+    <value>Outdoor Air Temp</value>
+  </data>
+  <data name="PerfIssueUnscheduled" xml:space="preserve">
+    <value>Unscheduled</value>
+  </data>
+  <data name="PerfIssueVarFromCO2SetPoint" xml:space="preserve">
+    <value>Variation from CO2 Setpoint</value>
+  </data>
+  <data name="PerfIssueVarFromDAPSetPoint" xml:space="preserve">
+    <value>Variation from DA-P Setpoint</value>
+  </data>
+  <data name="PerfIssueVarFromDATSetPoint" xml:space="preserve">
+    <value>Variation from DA-T Setpoint</value>
+  </data>
+  <data name="NoNetworkControllerNeedsBatteryReplacement" xml:space="preserve">
+    <value>No network controller has a battery that needs to be replaced. The battery provides backup power in the case of a power interruption. If the battery is not replaced, you run the risk of data loss or other issues if the power to the controller is interrupted.</value>
+  </data>
+  <data name="PluralNetworkControllerNeedsBatteryReplacement" xml:space="preserve">
+    <value>{0} network controllers have a battery that needs to be replaced. The battery provides backup power in the case of a power interruption. If the battery is not replaced, you run the risk of data loss or other issues if the power to the controller is interrupted.</value>
+  </data>
+  <data name="SingleNetworkControllerNeedsBatteryReplacement" xml:space="preserve">
+    <value>1 network controller has a battery that needs to be replaced. The battery provides backup power in the case of a power interruption. If the battery is not replaced, you run the risk of data loss or other issues if the power to the controller is interrupted.</value>
+  </data>
+  <data name="DeviceNotOperational" xml:space="preserve">
+    <value>Device status is not 'Operational'.</value>
+  </data>
+  <data name="DeviceNotOperationalRecom" xml:space="preserve">
+    <value>Check with power failure,  Check network connectivity, Replace with new NCM.</value>
+  </data>
+  <data name="NoDeviceNotOperational" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoPmiBatteryFault" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoPmiFieldControllerLimitationExceed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoPmiObjectsLimitationExceed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PluralDeviceNotOperational" xml:space="preserve">
+    <value>{0} devices are not in 'Operational' state.</value>
+  </data>
+  <data name="PluralPmiBatteryFault" xml:space="preserve">
+    <value>{0} devices's battery are faulty.</value>
+  </data>
+  <data name="ReportPluralDeviceNotOperational" xml:space="preserve">
+    <value>{0} Network Control Module (NCM) device(s) are not in 'Operational State'.</value>
+  </data>
+  <data name="ReportPluralPmiBatteryFault" xml:space="preserve">
+    <value>{0} Network Control Module (NCM) devices have a battery that needs to be replaced. The battery provides backup power in case of a power interruption. If the battery is not replaced, you run the risk of data loss or other issues if the power to the device is interrupted.</value>
+  </data>
+  <data name="PluralPmiFieldControllerLimitationExceed" xml:space="preserve">
+    <value>{0} devices exceeds its recommended controller count limitation.</value>
+  </data>
+  <data name="ReportPluralPmiFieldControllerLimitationExceed" xml:space="preserve">
+    <value>{0} Network Control Module (NCM) devices exceeded recommended limitation of 100 field controllers on a single N2 trunk.</value>
+  </data>
+  <data name="PluralPmiObjectsLimitationExceed" xml:space="preserve">
+    <value>{0} devices exceeds its recommended object count limitation.</value>
+  </data>
+  <data name="ReportPluralPmiObjectsLimitationExceed" xml:space="preserve">
+    <value>{0} Network Control Module (NCM) devices exceeded recommended limitation of 1500 objects count per NCM.</value>
+  </data>
+  <data name="PmiBatteryFault" xml:space="preserve">
+    <value>Battery is faulty, preventing backup capabilities before restarting.</value>
+  </data>
+  <data name="PmiBatteryFaultRecom" xml:space="preserve">
+    <value>Make sure the battery is properly installed. Replace the battery if necessary.</value>
+  </data>
+  <data name="PmiSiteOlderVersion" xml:space="preserve">
+    <value>The Metasys PMI site has older Metasys version.</value>
+  </data>
+  <data name="PmiSiteOlderVersionRecom" xml:space="preserve">
+    <value>Consider upgrading to the latest version of Metasys. Contact your local sales representative for more information on Metasys.</value>
+  </data>
+  <data name="SingleDeviceNotOperational" xml:space="preserve">
+    <value>1 device is not in 'Operational' state.</value>
+  </data>
+  <data name="ReportSingleDeviceNotOperational" xml:space="preserve">
+    <value>1 Network Control Module (NCM) device is not in 'Operational State'.</value>
+  </data>
+  <data name="SinglePmiBatteryFault" xml:space="preserve">
+    <value>1 device's battery is faulty.</value>
+  </data>
+  <data name="ReportSinglePmiBatteryFault" xml:space="preserve">
+    <value>1 Network Control Module (NCM) device has a battery that needs to be replaced. The battery provides backup power in case of a power interruption. If the battery is not replaced, you run the risk of data loss or other issues if the power to the device is interrupted.</value>
+  </data>
+  <data name="SinglePmiFieldControllerLimitationExceed" xml:space="preserve">
+    <value>1 device exceeds its recommended controller count limitation.</value>
+  </data>
+  <data name="ReportSinglePmiFieldControllerLimitationExceed" xml:space="preserve">
+    <value>1 Network Control Module (NCM) device exceeded recommended limitation of 100 field controllers on a single N2 trunk.</value>
+  </data>
+  <data name="SinglePmiObjectsLimitationExceed" xml:space="preserve">
+    <value>1 device exceeds its recommended object count limitation.</value>
+  </data>
+  <data name="ReportSinglePmiObjectsLimitationExceed" xml:space="preserve">
+    <value>1 Network Control Module (NCM) device exceeded recommended limitation of 1500 objects count per NCM.</value>
+  </data>
+  <data name="NoPmiOfflinePollGreaterThanZero" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PluralPmiOfflinePollGreaterThanZero" xml:space="preserve">
+    <value>{0} controllers’ ‘Offline Poll’ is greater than zero.</value>
+  </data>
+  <data name="ReportPluralPmiOfflinePollGreaterThanZero" xml:space="preserve">
+    <value>{0} Field Controllers offline poll is greater than zero. This could have a negative effect on the performance of the network.</value>
+  </data>
+  <data name="PmiOfflinePollGreaterThanZero" xml:space="preserve">
+    <value>Controller ‘Offline Poll’ is greater than zero.</value>
+  </data>
+  <data name="SinglePmiOfflinePollGreaterThanZero" xml:space="preserve">
+    <value>1 controller's ‘Offline Poll’ is greater than zero.</value>
+  </data>
+  <data name="ReportSinglePmiOfflinePollGreaterThanZero" xml:space="preserve">
+    <value>1 Field Controller offline poll is greater than zero. This could have a negative effect on the performance of the network.</value>
+  </data>
+  <data name="ReportSupportPmiOfflinePollGreaterThanZero" xml:space="preserve">
+    <value>Offline devices cause a polling interruption in the network since the NCM waits to determine whether the device is offline. Therefore, each offline device should have minimum polling cycles for the online devices.</value>
+  </data>
+  <data name="PmiDecompilingErrorFound" xml:space="preserve">
+    <value> {0} Error(s) of Decompiling found. Perform Export to Excel to view details of error(s) from File Menu.</value>
+  </data>
+  <data name="SinglePmiDecompilingErrorFound" xml:space="preserve">
+    <value>1 NC has Decompiling Error(s).</value>
+  </data>
+  <data name="ReportSinglePmiDecompilingErrorFound" xml:space="preserve">
+    <value>1 Network Control Module (NCM) device has errors during the ddl decompile.</value>
+  </data>
+  <data name="PluralPmiDecompilingErrorFound" xml:space="preserve">
+    <value>{0} NCs have Decompiling Errors.</value>
+  </data>
+  <data name="ReportPluralPmiDecompilingErrorFound" xml:space="preserve">
+    <value>{0} Network Control Module (NCM) devices have errors during the ddl decompile.</value>
+  </data>
+  <data name="ReportSupportPmiDecompilingErrorFound" xml:space="preserve">
+    <value>The DDL decompiler keeps track of archive database errors found during the decompile, and attempts to decompile as much of the archive database as possible, despite errors.</value>
+  </data>
+  <data name="NoPmiDecompilingErrorFound" xml:space="preserve">
+    <value>No NC has Decompiling Error(s).</value>
+  </data>
+  <data name="Undetermined" xml:space="preserve">
+    <value>Undetermined</value>
+  </data>
+  <data name="RulePluralOfflineControllers" xml:space="preserve">
+    <value>{0} controllers are offline.</value>
+  </data>
+  <data name="RuleSingleOfflineController" xml:space="preserve">
+    <value>{0} controller is offline.</value>
+  </data>
+  <data name="MetasysSiteInformation" xml:space="preserve">
+    <value>Metasys Site Information</value>
+  </data>
+  <data name="NetworkName" xml:space="preserve">
+    <value>Network Name</value>
+  </data>
+  <data name="MetasysPMIversion" xml:space="preserve">
+    <value>Metasys PMI version</value>
+  </data>
+  <data name="WindowsOSversion" xml:space="preserve">
+    <value>Windows OS version</value>
+  </data>
+  <data name="SQLVersion" xml:space="preserve">
+    <value>SQL Version</value>
+  </data>
+  <data name="NumberOfWorkstations" xml:space="preserve">
+    <value>Number of Workstations</value>
+  </data>
+  <data name="WorkstationDetails" xml:space="preserve">
+    <value>Workstation Details</value>
+  </data>
+  <data name="WorkstationNamePCName" xml:space="preserve">
+    <value>Workstation Name/PC Name</value>
+  </data>
+  <data name="IPAddress" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="N1Address" xml:space="preserve">
+    <value>N1 Address</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="TotalSupervisoryDevices" xml:space="preserve">
+    <value>Total Supervisory Devices</value>
+  </data>
+  <data name="TotalFieldControllers" xml:space="preserve">
+    <value>Total Field Controllers</value>
+  </data>
+  <data name="TotalObjects" xml:space="preserve">
+    <value>Total Objects</value>
+  </data>
+  <data name="TotalHardwareObjects" xml:space="preserve">
+    <value>Total Hardware Objects</value>
+  </data>
+  <data name="TotalSoftwareObjects" xml:space="preserve">
+    <value>Total Software Objects</value>
+  </data>
+  <data name="InventorySupervisoryDeviceModelListWithCount" xml:space="preserve">
+    <value>Inventory : Supervisory Device Model List With Count</value>
+  </data>
+  <data name="ModelName" xml:space="preserve">
+    <value>Model Name</value>
+  </data>
+  <data name="SupervisoryDeviceCount" xml:space="preserve">
+    <value>Supervisory Device Count</value>
+  </data>
+  <data name="InventoryFieldControllerModelListWithCount" xml:space="preserve">
+    <value>Inventory : Field Controller Model List With Count</value>
+  </data>
+  <data name="FieldControllerCount" xml:space="preserve">
+    <value>Field Controller Count</value>
+  </data>
+  <data name="InventoryFieldPointTypesWithCount" xml:space="preserve">
+    <value>Inventory : Field Point Types With Count</value>
+  </data>
+  <data name="PointType" xml:space="preserve">
+    <value>Point Type</value>
+  </data>
+  <data name="PointCount" xml:space="preserve">
+    <value>Point Count</value>
+  </data>
+  <data name="AccumulatorACM" xml:space="preserve">
+    <value>Accumulator (ACM)</value>
+  </data>
+  <data name="AnalogInputAI" xml:space="preserve">
+    <value>Analog Input (AI)</value>
+  </data>
+  <data name="AnalogOutputDigitalAOD" xml:space="preserve">
+    <value>Analog Output Digital (AOD)</value>
+  </data>
+  <data name="AnalogOutputSetpointAOS" xml:space="preserve">
+    <value>Analog Output Setpoint (AOS)</value>
+  </data>
+  <data name="BinaryInputBI" xml:space="preserve">
+    <value>Binary Input (BI)</value>
+  </data>
+  <data name="BinaryOutputBO" xml:space="preserve">
+    <value>Binary Output (BO)</value>
+  </data>
+  <data name="GenericControlSystemCS" xml:space="preserve">
+    <value>Generic Control System (CS)</value>
+  </data>
+  <data name="MultistateInputMSI" xml:space="preserve">
+    <value>Multistate Input (MSI)</value>
+  </data>
+  <data name="MultistateOutputMSO" xml:space="preserve">
+    <value>Multistate Output (MSO)</value>
+  </data>
+  <data name="MultipleCommandMC" xml:space="preserve">
+    <value>Multiple Command (MC)</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Recommendations" xml:space="preserve">
+    <value>Recommendations</value>
+  </data>
+  <data name="PmiInventoryReportHeader" xml:space="preserve">
+    <value>&lt;i&gt;Metasys®&lt;/i&gt; Performance Verification - PMI Inventory Report</value>
+  </data>
+  <data name="SingleInventoryReviewConducted" xml:space="preserve">
+    <value>An Inventory review of your &lt;i&gt;Metasys&lt;/i&gt; PMI system was conducted on {0}.  During this review, {1} supervisory device of your site was evaluated.  This report contains a summary of the results.</value>
+  </data>
+  <data name="PluralInventoryReviewConducted" xml:space="preserve">
+    <value>An Inventory review of your &lt;i&gt;Metasys&lt;/i&gt; PMI system were conducted on {0}.  During this review, {1} supervisory devices of your site were evaluated.  This report contains a summary of the results.</value>
+  </data>
+  <data name="SingleSpecificAreaForImprovementInMetasysPmi" xml:space="preserve">
+    <value>1 specific area for improvement was identified within your &lt;i&gt;Metasys&lt;/i&gt; PMI system regarding the maintenance and reliability of your site.</value>
+  </data>
+  <data name="PluralSpecificAreaForImprovementInMetasysPmi" xml:space="preserve">
+    <value>{0} specific areas for improvement were identified within your &lt;i&gt;Metasys&lt;/i&gt; PMI system regarding the maintenance and reliability of your site.</value>
+  </data>
+  <data name="NotLatestVersionError" xml:space="preserve">
+    <value>This site is not at the latest version of Metasys. Contact your local sales representative for upgrade options</value>
+  </data>
+  <data name="NotLatestVersionErrorDesc" xml:space="preserve">
+    <value>The latest Metasys release takes this industry-leading building automation system to a new level, further enhancing building efficiency—along with occupant comfort, safety, security and productivity. New capabilities improve space use, cut time on task, ease integrations and enhance network performance.</value>
+  </data>
+  <data name="UpgradingMetasysSystemBenefits" xml:space="preserve">
+    <value>Upgrading your Metasys system would provide additional benefits</value>
+  </data>
+  <data name="UpgradingBenefitFirst" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="UpgradingBenefitSecond" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at any time, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="UpgradingBenefitThird" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="UpgradingBenefitForth" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 12 support for easier integrations with other systems</value>
+  </data>
+  <data name="UpgradingBenefitFifth" xml:space="preserve">
+    <value>Ability to collect, summarize, and present building data in relevant and usable ways with Advanced Reporting feature</value>
+  </data>
+  <data name="UpgradingBenefitSixth" xml:space="preserve">
+    <value>Ability to focus energy-reduction activities by identifying all similar objects and determining energy outliers with Tailored Summaries feature</value>
+  </data>
+  <data name="UpgradingBenefitSeventh" xml:space="preserve">
+    <value>Access to reports that aggregate energy-related data to identify opportunities to reduce energy spend</value>
+  </data>
+  <data name="UpgradingBenefitEighth" xml:space="preserve">
+    <value>New BACnet/IP field equipment controllers for increased network performance and to help future-proof building system networks</value>
+  </data>
+  <data name="UpgradingBenefitNinth" xml:space="preserve">
+    <value>Significant security enhancements – including secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="SupervisoryDevicesWithIssue" xml:space="preserve">
+    <value>List of Supervisory Devices with Issue Description</value>
+  </data>
+  <data name="FieldCOntrollerWithIssue" xml:space="preserve">
+    <value>List of Field Controllers with Issue Description</value>
+  </data>
+  <data name="SiteInventorySummary" xml:space="preserve">
+    <value>Site Inventory Summary</value>
+  </data>
+  <data name="SupervisoryDevices" xml:space="preserve">
+    <value>Supervisory Devices : </value>
+  </data>
+  <data name="FieldControllers" xml:space="preserve">
+    <value>Field Controllers : </value>
+  </data>
+  <data name="Objects" xml:space="preserve">
+    <value>Objects : </value>
+  </data>
+  <data name="HardwareObjects" xml:space="preserve">
+    <value>Hardware Objects : </value>
+  </data>
+  <data name="SoftwareObjects" xml:space="preserve">
+    <value>Software Objects : </value>
+  </data>
+  <data name="SupervisoryDeviceModelDistribution" xml:space="preserve">
+    <value>Supervisory Device Model Distribution : </value>
+  </data>
+  <data name="FieldControllerDistribution" xml:space="preserve">
+    <value>Field Controller Model Distribution : </value>
+  </data>
+  <data name="FieldPointDistribution" xml:space="preserve">
+    <value>Field Point Distribution : </value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="ReportFootNote2019" xml:space="preserve">
+    <value>Customer Confidential: Do Not Copy (physically, electronically, or in any other media) without the express written permission of Johnson Controls, Inc. ©2019 Johnson Controls</value>
+  </data>
+  <data name="WindowsCeEmbedded" xml:space="preserve">
+    <value>Windows CE Embedded</value>
+  </data>
+  <data name="Wes2009" xml:space="preserve">
+    <value>WES 2009</value>
+  </data>
+  <data name="OfflineControllerPerformancePlural" xml:space="preserve">
+    <value>{0} field controllers appear to be in offline state which should be investigated and corrected. Offline state of the field controller might affect the monitoring and controlling of the system/equipment.</value>
+  </data>
+  <data name="OfflineControllerPerformanceSingular" xml:space="preserve">
+    <value>1 field controller appears to be in offline state which should be investigated and corrected. Offline state of the field controller might affect the monitoring and controlling of the system/equipment.</value>
+  </data>
+</root>

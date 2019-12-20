@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Doyouwanttoclose" xml:space="preserve">
+    <value>Do you want to close ?</value>
+  </data>
+  <data name="Doyouwanttocloseproject" xml:space="preserve">
+    <value>Do you want to close current project ?</value>
+  </data>
+  <data name="DoYouWantToUpdateCurrentPVT" xml:space="preserve">
+    <value>Do you want to update current PVT version?</value>
+  </data>
+  <data name="EndDateLessMsg" xml:space="preserve">
+    <value>End date should not be greater than todays date.</value>
+  </data>
+  <data name="EndDateMandatory" xml:space="preserve">
+    <value>End date is mandatory.</value>
+  </data>
+  <data name="Invalidusernameandpassword" xml:space="preserve">
+    <value>Invalid user name and password</value>
+  </data>
+  <data name="nopointsAvilable" xml:space="preserve">
+    <value>No points available to scan. Please select another device.</value>
+  </data>
+  <data name="Pleaseenterpassword" xml:space="preserve">
+    <value>Please enter password.</value>
+  </data>
+  <data name="Pleaseenterproject" xml:space="preserve">
+    <value>Please enter project name.</value>
+  </data>
+  <data name="Pleaseenterservername" xml:space="preserve">
+    <value>Please enter IP (or Hostname) of server.</value>
+  </data>
+  <data name="Pleaseenterusername" xml:space="preserve">
+    <value>Please enter user name.</value>
+  </data>
+  <data name="Pleaseselectarchive" xml:space="preserve">
+    <value>Please select archive</value>
+  </data>
+  <data name="Pleaseselectatleastonedevice" xml:space="preserve">
+    <value>Please select at least one device</value>
+  </data>
+  <data name="Pleaseselectbranch" xml:space="preserve">
+    <value>Please select branch.</value>
+  </data>
+  <data name="Pleaseselectsitescan" xml:space="preserve">
+    <value>Please select site scan</value>
+  </data>
+  <data name="RescanMessage" xml:space="preserve">
+    <value>Do you want to rescan previously scanned devices ?</value>
+  </data>
+  <data name="StartDateLessMsg" xml:space="preserve">
+    <value>Start date should be less than end date.</value>
+  </data>
+  <data name="StartDateMandatory" xml:space="preserve">
+    <value>Start date is mandatory.</value>
+  </data>
+  <data name="Workinprogress" xml:space="preserve">
+    <value>Work in progress.</value>
+  </data>
+  <data name="Request_you_to_change_the_date" xml:space="preserve">
+    <value>Request you to change the date.</value>
+  </data>
+  <data name="Invalid_System_Date" xml:space="preserve">
+    <value>Invalid System Date</value>
+  </data>
+  <data name="License_going_to_expire_today" xml:space="preserve">
+    <value>Your License is going to expire today. Please connect to JCI network for continuation.</value>
+  </data>
+  <data name="License_Reminder" xml:space="preserve">
+    <value>License Reminder</value>
+  </data>
+  <data name="License_about_to_expire_in_days" xml:space="preserve">
+    <value>Your License is about to expire in {0} day(s). Please connect to JCI network for continuation.</value>
+  </data>
+  <data name="BranchNameExists" xml:space="preserve">
+    <value>Branch name already exists</value>
+  </data>
+  <data name="InvalidBranchName" xml:space="preserve">
+    <value>Invalid Branch name</value>
+  </data>
+  <data name="AtaTimeCanCompareOnlyTwo" xml:space="preserve">
+    <value>At a time can compare only two projects.</value>
+  </data>
+  <data name="FileDoesNotExist" xml:space="preserve">
+    <value>File does not exist</value>
+  </data>
+  <data name="PleaseSelectCompareType" xml:space="preserve">
+    <value>Please select compare type.</value>
+  </data>
+  <data name="PleaseSelectFirstProject" xml:space="preserve">
+    <value>Please select first project file.</value>
+  </data>
+  <data name="PleaseSelectProjects" xml:space="preserve">
+    <value>Please select projects.</value>
+  </data>
+  <data name="PleaseSelectSecondProject" xml:space="preserve">
+    <value>Please select second project file.</value>
+  </data>
+  <data name="PleaseSelectTwoDiffPvt" xml:space="preserve">
+    <value>Please select two different Pvt file.</value>
+  </data>
+  <data name="ProjSiteScanMatchWithCompare" xml:space="preserve">
+    <value>Project site scan should match with compare type.</value>
+  </data>
+  <data name="SelectTwoProjForCompare" xml:space="preserve">
+    <value>Please select two projects for compare.</value>
+  </data>
+  <data name="NoRecordAvailable" xml:space="preserve">
+    <value>No records available</value>
+  </data>
+  <data name="InvalidProjFileSelected" xml:space="preserve">
+    <value>Invalid project file selected</value>
+  </data>
+  <data name="PleaseSelectFileFirst" xml:space="preserve">
+    <value>Please Select file first</value>
+  </data>
+  <data name="DeleteConfirmMsg" xml:space="preserve">
+    <value>Are you sure you want to delete selected project(s)?</value>
+  </data>
+  <data name="Max1ProjectAllowedToDelete" xml:space="preserve">
+    <value>Maximum 1 project is allowed to delete at a time.</value>
+  </data>
+  <data name="NoProjAvailable" xml:space="preserve">
+    <value>No project(s) available.</value>
+  </data>
+  <data name="NoProjSelected" xml:space="preserve">
+    <value>No project(s) selected.</value>
+  </data>
+  <data name="ProjDelSuccess" xml:space="preserve">
+    <value>Project(s) deleted successfully.</value>
+  </data>
+  <data name="UnableDeleteOpenProject" xml:space="preserve">
+    <value>Unable to delete currently open project. Request you to close the project first.</value>
+  </data>
+  <data name="AuthFailed" xml:space="preserve">
+    <value>Authentication failed!</value>
+  </data>
+  <data name="InstaceNumberExists" xml:space="preserve">
+    <value>Instance number already exists</value>
+  </data>
+  <data name="NameExists" xml:space="preserve">
+    <value>Name already exists</value>
+  </data>
+  <data name="PointAlreadyExists" xml:space="preserve">
+    <value>Point already exists</value>
+  </data>
+  <data name="StartTimeLessThanEndTime" xml:space="preserve">
+    <value>Start time should be less than end time</value>
+  </data>
+  <data name="TimestampUpdated" xml:space="preserve">
+    <value>Timestamp updated successfully</value>
+  </data>
+  <data name="AnotherProcess" xml:space="preserve">
+    <value>Another process is in progress, please wait.."</value>
+  </data>
+  <data name="DoYouWantToOpen" xml:space="preserve">
+    <value>Do you want to open this project.</value>
+  </data>
+  <data name="InvPerfProjectShouldBeOpen" xml:space="preserve">
+    <value>Inventory/Performance project should be open to export to excel.</value>
+  </data>
+  <data name="Max10EnginesAllowed" xml:space="preserve">
+    <value>Maximum 10 engines allowed at a time</value>
+  </data>
+  <data name="Max20EnginesAllowed" xml:space="preserve">
+    <value>Maximum 20 engines allowed at a time</value>
+  </data>
+  <data name="NoDeviceToScan" xml:space="preserve">
+    <value>There is no device to scan.</value>
+  </data>
+  <data name="PerfScanOnlyInCaseOnlineScan" xml:space="preserve">
+    <value>Performance scan is applicable only in case of online scan.</value>
+  </data>
+  <data name="ProjectShouldBeOpenToReports" xml:space="preserve">
+    <value>Project should be open to generate reports.</value>
+  </data>
+  <data name="PVTSetupNotFound" xml:space="preserve">
+    <value>PVT Setup file not found</value>
+  </data>
+  <data name="SelectAtLeastOneSupDevice" xml:space="preserve">
+    <value>Please select at least one supervisory device</value>
+  </data>
+  <data name="SwitchToPerformanceScan" xml:space="preserve">
+    <value>Do you want to switch to performance scan? This will result in a new project creation.</value>
+  </data>
+  <data name="VerifyUserCreds" xml:space="preserve">
+    <value>Verify if user credentials are correct or user is in JCI Network.</value>
+  </data>
+  <data name="ConnectionLostMsg" xml:space="preserve">
+    <value>Connection lost. Please check your internet connection.</value>
+  </data>
+  <data name="DefaultMetasysUserNotActive" xml:space="preserve">
+    <value>Great! The default Metasys user is not active.</value>
+  </data>
+  <data name="DeviceAlreadyScanned" xml:space="preserve">
+    <value>Selected device(s) already scanned, so please select another device.</value>
+  </data>
+  <data name="DormantAccountNotAvailable" xml:space="preserve">
+    <value>Dormant account not available.</value>
+  </data>
+  <data name="NotAllUsersAdminMsg" xml:space="preserve">
+    <value>Good job! Not all users have administrative privileges.</value>
+  </data>
+  <data name="ProjShouldBeOpenToExcel" xml:space="preserve">
+    <value>Project should be open to export to excel.</value>
+  </data>
+  <data name="RecordUpdatedSuccess" xml:space="preserve">
+    <value>Record updated successfully</value>
+  </data>
+  <data name="ThereIsNoProjSave" xml:space="preserve">
+    <value>There is no project opened to save</value>
+  </data>
+  <data name="SheetAddedDeletedErrMessage" xml:space="preserve">
+    <value>You are trying to import an invalid Excel file. Please check.</value>
+  </data>
+  <data name="SheetSequenceErrMessage" xml:space="preserve">
+    <value>Sheets sequence is not as per standard template. Please check.</value>
+  </data>
+  <data name="TemplateAlreadyOpenErrMessage" xml:space="preserve">
+    <value>Please close the template file before import/export.</value>
+  </data>
+  <data name="ValidationSuccessful" xml:space="preserve">
+    <value>Validation Successful</value>
+  </data>
+  <data name="GeneratingReport" xml:space="preserve">
+    <value>Generating Report...</value>
+  </data>
+  <data name="PleaseSelectMandoatoryPMIfiles" xml:space="preserve">
+    <value>Please select PMI files to scan, at least Metascan.txt or Global.ddl.</value>
+  </data>
+  <data name="PmiPvtFileSelectedCompareProject" xml:space="preserve">
+    <value>Selected .pvt file is of PMI project, which cannot be compared. Please select different .pvt file.</value>
+  </data>
+  <data name="PmiFileValidationFailed" xml:space="preserve">
+    <value>File validation failed for </value>
+  </data>
+  <data name="PmiScanCompletedWithErrors" xml:space="preserve">
+    <value>Scan Completed with following exception</value>
+  </data>
+  <data name="PmiScanFailed" xml:space="preserve">
+    <value>PMI Scan failed!</value>
+  </data>
+  <data name="FeatureNotAvailableForPMI" xml:space="preserve">
+    <value>Feature not available for PMI Scan</value>
+  </data>
+  <data name="PmiSiteValidationFailed" xml:space="preserve">
+    <value>File is not of correct site </value>
+  </data>
+  <data name="PleaseSelectPMIfiles" xml:space="preserve">
+    <value>Please select at least one PMI file to scan</value>
+  </data>
+  <data name="c_OatError" xml:space="preserve">
+    <value>OAT (Cooling Waste) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="filterDPError" xml:space="preserve">
+    <value>Filter Differential Pressure (Dirty Filter) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="filterStatusError" xml:space="preserve">
+    <value>Filter Status (Dirty Filter) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="highScheduleError" xml:space="preserve">
+    <value>High Priority (Scheduling) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="h_OatError" xml:space="preserve">
+    <value>OAT (Heating Waste) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="lowScheduleError" xml:space="preserve">
+    <value>Low Priority (Scheduling) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="sfoError" xml:space="preserve">
+    <value>SF-O (%) (Fan Motor) field is kept blank.  No fields can be left blank while importing the Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="v_co2Error" xml:space="preserve">
+    <value>CO2 (Variation From Setpoint) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="v_dapError" xml:space="preserve">
+    <value>DAP (Variation From Setpoint) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="v_datError" xml:space="preserve">
+    <value>DAT (Variation From Setpoint) field is kept blank. No fields can be left blank while importing the "Ruleset Triggers" Excel template.</value>
+  </data>
+  <data name="RiserViewComException" xml:space="preserve">
+    <value>COM Exception occurred. Possible reason: Microsoft Visio not installed! Riser generation in visio format requires Microsoft Visio installed.You need to download and install Micrsoft Visio.Download Link : https://products.office.com/en-us/previous-versions/microsoft-visio-2013 </value>
+  </data>
+  <data name="RiserViewError" xml:space="preserve">
+    <value>Error occured while drawing visio document.</value>
+  </data>
+  <data name="RiserViewErrorProjectDetailsNotFound" xml:space="preserve">
+    <value>Project details not found.</value>
+  </data>
+  <data name="MigratingDatabase" xml:space="preserve">
+    <value>Database Migration is in progress...</value>
+  </data>
+  <data name="DbMigrationCancelled" xml:space="preserve">
+    <value>Database Migration got cancelled...</value>
+  </data>
+  <data name="ErrorwhileDbMigration" xml:space="preserve">
+    <value>Some error occured while Database Migration...</value>
+  </data>
+  <data name="DbMigrationCompleted" xml:space="preserve">
+    <value>Migration got completed successfully!!</value>
+  </data>
+</root>

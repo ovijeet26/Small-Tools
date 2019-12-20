@@ -1,0 +1,3553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddSupervisory" xml:space="preserve">
+    <value>Add Supervisory</value>
+  </data>
+  <data name="AllAdminUsers" xml:space="preserve">
+    <value>All Admin Users</value>
+  </data>
+  <data name="ADSOrXAddress" xml:space="preserve">
+    <value>Repository</value>
+  </data>
+  <data name="ADSXModel" xml:space="preserve">
+    <value>ADS/X Model :</value>
+  </data>
+  <data name="AHUCO2SetPnt" xml:space="preserve">
+    <value>AHU CO2 Variation from Setpoint</value>
+  </data>
+  <data name="AHUDAPSetPnt" xml:space="preserve">
+    <value>AHU DAP Variation from Setpoint</value>
+  </data>
+  <data name="AHUDATSetPnt" xml:space="preserve">
+    <value>AHU DAT Set Point</value>
+  </data>
+  <data name="AHUDischargeAirTemp" xml:space="preserve">
+    <value>AHU Discharge Air Temp. Reset</value>
+  </data>
+  <data name="AHUResetStrategies" xml:space="preserve">
+    <value>Air Handling Unit Reset Strategies</value>
+  </data>
+  <data name="AHUSupplyPressure" xml:space="preserve">
+    <value>AHU Reset Strategy</value>
+  </data>
+  <data name="AHUsWithEconomizer" xml:space="preserve">
+    <value>AHUs With Economizer</value>
+  </data>
+  <data name="AHUsWithoutEconomizer" xml:space="preserve">
+    <value>AHUs Without Economizer</value>
+  </data>
+  <data name="AHUswith100OutdoorAir" xml:space="preserve">
+    <value>AHUs With 100% Outdoor Air</value>
+  </data>
+  <data name="AHUwithout100OutdoorAir" xml:space="preserve">
+    <value>AHUs Without 100% Outdoor Air</value>
+  </data>
+  <data name="AlarmEvents" xml:space="preserve">
+    <value>Alarm/Events</value>
+  </data>
+  <data name="AlarmMessage" xml:space="preserve">
+    <value>Alarm Message</value>
+  </data>
+  <data name="Alarms" xml:space="preserve">
+    <value>Alarms</value>
+  </data>
+  <data name="AlarmType" xml:space="preserve">
+    <value>Alarm Type</value>
+  </data>
+  <data name="AppInfo" xml:space="preserve">
+    <value>App Info</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="AvailableFlashMemory" xml:space="preserve">
+    <value>Flash Usage</value>
+  </data>
+  <data name="AvailPatches" xml:space="preserve">
+    <value>Available Patches</value>
+  </data>
+  <data name="BACnetBroadcastReceiveRate" xml:space="preserve">
+    <value>BACnet Broadcast Receive Rate</value>
+  </data>
+  <data name="BACnetCovReceiveRate" xml:space="preserve">
+    <value>BACnet Cov Receive Rate</value>
+  </data>
+  <data name="BACNetID" xml:space="preserve">
+    <value>BACnet ID</value>
+  </data>
+  <data name="Benefit" xml:space="preserve">
+    <value>Benefit :</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="ChooseProjectFile" xml:space="preserve">
+    <value>Choose Project File</value>
+  </data>
+  <data name="ClearFilters" xml:space="preserve">
+    <value>Clear Filters</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>Click here</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseProject" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CO2" xml:space="preserve">
+    <value>CO2</value>
+  </data>
+  <data name="CO2SP" xml:space="preserve">
+    <value>CO2-SP</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="ComfortandHealth" xml:space="preserve">
+    <value>Comfort and Health</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="CompareDetails" xml:space="preserve">
+    <value>Compare Details</value>
+  </data>
+  <data name="CompareProjects" xml:space="preserve">
+    <value>Compare Projects</value>
+  </data>
+  <data name="Controller" xml:space="preserve">
+    <value>Controllers</value>
+  </data>
+  <data name="ControllerDescription" xml:space="preserve">
+    <value>Controller Description</value>
+  </data>
+  <data name="ControllerExtendedLabel" xml:space="preserve">
+    <value>Controller Extended Label</value>
+  </data>
+  <data name="ControllerFQR" xml:space="preserve">
+    <value>Controller FQR</value>
+  </data>
+  <data name="ControllerName" xml:space="preserve">
+    <value>Controller Name</value>
+  </data>
+  <data name="Controllers" xml:space="preserve">
+    <value>Controllers :</value>
+  </data>
+  <data name="CorrectiveMaintenance" xml:space="preserve">
+    <value>Corrective Maintenance</value>
+  </data>
+  <data name="CPUUsage" xml:space="preserve">
+    <value>CPU Usage</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Created On</value>
+  </data>
+  <data name="CriticalIssues" xml:space="preserve">
+    <value>Critical Issues</value>
+  </data>
+  <data name="DamperPerValve" xml:space="preserve">
+    <value>Damper/Valve</value>
+  </data>
+  <data name="DAP" xml:space="preserve">
+    <value>DAP</value>
+  </data>
+  <data name="DAPSP" xml:space="preserve">
+    <value>DAP-SP</value>
+  </data>
+  <data name="DAT" xml:space="preserve">
+    <value>DAT</value>
+  </data>
+  <data name="DATSP" xml:space="preserve">
+    <value>DAT-SP</value>
+  </data>
+  <data name="DefaultPassword" xml:space="preserve">
+    <value>Default Users</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DeviceDescription" xml:space="preserve">
+    <value>Device Description</value>
+  </data>
+  <data name="DeviceFilter" xml:space="preserve">
+    <value>Device Filter</value>
+  </data>
+  <data name="DeviceFilterStaticInfo" xml:space="preserve">
+    <value>Setting Filters will update the list of controller devices.</value>
+  </data>
+  <data name="DeviceFQR" xml:space="preserve">
+    <value>Device FQR</value>
+  </data>
+  <data name="DeviceName" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="SupervisoryDeviceName" xml:space="preserve">
+    <value>Supervisory Device Name</value>
+  </data>
+  <data name="SupervisoryDeviceDescription" xml:space="preserve">
+    <value>Supervisory Device Description</value>
+  </data>
+  <data name="AssociatedSupervisoryDevice" xml:space="preserve">
+    <value>Associated Supervisory Device</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Supervisory Devices</value>
+  </data>
+  <data name="DirtyFilter" xml:space="preserve">
+    <value>Dirty Filter</value>
+  </data>
+  <data name="NoOfDormantAccounts" xml:space="preserve">
+    <value>No. of Dormant Accounts</value>
+  </data>
+  <data name="DormantAccounts" xml:space="preserve">
+    <value>Dormant Accounts</value>
+  </data>
+  <data name="Economizer" xml:space="preserve">
+    <value>Economizer</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="EventsLost" xml:space="preserve">
+    <value>Events Lost</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="ExportTaskingEstimation" xml:space="preserve">
+    <value>Export Tasking Estimation</value>
+  </data>
+  <data name="ExportTaskingList" xml:space="preserve">
+    <value>Export Tasking List</value>
+  </data>
+  <data name="ExtendedLabel" xml:space="preserve">
+    <value>Extended Label</value>
+  </data>
+  <data name="FanMotors" xml:space="preserve">
+    <value>Fan Motors</value>
+  </data>
+  <data name="FeatureAssessment" xml:space="preserve">
+    <value>Feature Assessment</value>
+  </data>
+  <data name="FeatureAssessmentInfo" xml:space="preserve">
+    <value>Reviews the existing Metasys configuration to identify optimizations by leveraging unused Metasys features.</value>
+  </data>
+  <data name="FieldControllerInformation" xml:space="preserve">
+    <value>Field Controller Information</value>
+  </data>
+  <data name="FieldControllers" xml:space="preserve">
+    <value>Field Controllers :</value>
+  </data>
+  <data name="FieldPointsInfo" xml:space="preserve">
+    <value>Field Points Information</value>
+  </data>
+  <data name="FieldTechName" xml:space="preserve">
+    <value>Field Technician</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Filedownloadsuccess" xml:space="preserve">
+    <value>File downloaded successfully</value>
+  </data>
+  <data name="FilterDeviceList" xml:space="preserve">
+    <value>Filter Device List</value>
+    <comment>same as Filedownloadsuccess</comment>
+  </data>
+  <data name="Firmware" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="FirmwareVersions" xml:space="preserve">
+    <value>Firmware Versions</value>
+  </data>
+  <data name="Flow" xml:space="preserve">
+    <value>Flow</value>
+  </data>
+  <data name="FoundDevices" xml:space="preserve">
+    <value>Found Devices</value>
+  </data>
+  <data name="FQR" xml:space="preserve">
+    <value>FQR</value>
+  </data>
+  <data name="GetArchive" xml:space="preserve">
+    <value>Get Archive List</value>
+  </data>
+  <data name="HeatingCoolingWaste" xml:space="preserve">
+    <value>Heating or Cooling Waste</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="HrsOrInspection" xml:space="preserve">
+    <value>Hrs/Inspection</value>
+  </data>
+  <data name="Humidity" xml:space="preserve">
+    <value>Humidity</value>
+  </data>
+  <data name="ImproperlyDevices" xml:space="preserve">
+    <value>Duplicate BACnet IDs</value>
+    <comment>same as DuplicateBACnetIDs</comment>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>#. of Inspection</value>
+  </data>
+  <data name="InstanceNumber" xml:space="preserve">
+    <value>Instance Number</value>
+  </data>
+  <data name="Integrations" xml:space="preserve">
+    <value>Integrations</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="InventoryControllerInfo" xml:space="preserve">
+    <value>Field Controller Information</value>
+    <comment>same as FieldControllerInformation</comment>
+  </data>
+  <data name="InventoryControllers" xml:space="preserve">
+    <value>Firmware Versions</value>
+    <comment>same as FirmwareVersions</comment>
+  </data>
+  <data name="InventoryInfo" xml:space="preserve">
+    <value>Retrieves a list of building controllers installed on site along with several key attributes of those controllers.</value>
+  </data>
+  <data name="InventoryPoints" xml:space="preserve">
+    <value>Field Points Information</value>
+    <comment>same as FieldPointsInfo</comment>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP#</value>
+  </data>
+  <data name="IPAddress" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="IPAddressADSX" xml:space="preserve">
+    <value>IP Address :</value>
+  </data>
+  <data name="IPOrServerName" xml:space="preserve">
+    <value>IP (or Hostname) of Server</value>
+  </data>
+  <data name="Issues" xml:space="preserve">
+    <value>Issues</value>
+  </data>
+  <data name="KeyTasks" xml:space="preserve">
+    <value>Recommendations</value>
+  </data>
+  <data name="LastBackup" xml:space="preserve">
+    <value>Last Backup :</value>
+  </data>
+  <data name="LastBackup6Month" xml:space="preserve">
+    <value>Last Backup &gt; 6  Months Old</value>
+  </data>
+  <data name="LastLogin" xml:space="preserve">
+    <value>Last Login</value>
+  </data>
+  <data name="Liability" xml:space="preserve">
+    <value>Liability :</value>
+  </data>
+  <data name="LocalDatabase" xml:space="preserve">
+    <value>Local Database</value>
+  </data>
+  <data name="Logic" xml:space="preserve">
+    <value>Logic :</value>
+  </data>
+  <data name="MacAddress" xml:space="preserve">
+    <value>MAC Address</value>
+  </data>
+  <data name="MaintainandReliability" xml:space="preserve">
+    <value>Maintenance and Reliability</value>
+  </data>
+  <data name="MappedPoints" xml:space="preserve">
+    <value>Mapped Points</value>
+  </data>
+  <data name="Maximize" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="MemoryUsage" xml:space="preserve">
+    <value>Memory Usage</value>
+  </data>
+  <data name="MetasysCompliance" xml:space="preserve">
+    <value>Metasys Compliance</value>
+  </data>
+  <data name="Meter" xml:space="preserve">
+    <value>Meter</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="MissingPoints" xml:space="preserve">
+    <value>Missing Points</value>
+  </data>
+  <data name="MissingTrendPoints" xml:space="preserve">
+    <value>Missing Trend Points</value>
+  </data>
+  <data name="MissingTrends" xml:space="preserve">
+    <value>Missing Trends</value>
+  </data>
+  <data name="MissingTrendsCount" xml:space="preserve">
+    <value>Missing Trend Points Count</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="ModelName" xml:space="preserve">
+    <value>Model Name</value>
+  </data>
+  <data name="NAEBatteryCondition" xml:space="preserve">
+    <value>NAE Battery Condition</value>
+  </data>
+  <data name="NAEFirmwareVersion" xml:space="preserve">
+    <value>Supervisory Devices</value>
+  </data>
+  <data name="NAELastRestart" xml:space="preserve">
+    <value>NAE Last Restart (UTC)</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name :</value>
+  </data>
+  <data name="Names" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NetworkAddress" xml:space="preserve">
+    <value>Network Address (N2)</value>
+  </data>
+  <data name="NewProject" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="NewToPVT" xml:space="preserve">
+    <value>New to PVT?</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NoOfSupervisoryDevices" xml:space="preserve">
+    <value>No. of Supervisory Devices : </value>
+  </data>
+  <data name="ObjectCount" xml:space="preserve">
+    <value>Object Count</value>
+  </data>
+  <data name="ObjectName" xml:space="preserve">
+    <value>Object Name</value>
+  </data>
+  <data name="Occurences" xml:space="preserve">
+    <value>Occurrences</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OpenHeatingCooling" xml:space="preserve">
+    <value>Open-Heating/Cooling Waste</value>
+  </data>
+  <data name="OpenProject" xml:space="preserve">
+    <value>Open Project</value>
+  </data>
+  <data name="OpenProjectFrom" xml:space="preserve">
+    <value>Open Project From</value>
+  </data>
+  <data name="OperatorOverriding" xml:space="preserve">
+    <value>Operator Overriding</value>
+  </data>
+  <data name="OutdoorAHU" xml:space="preserve">
+    <value>100% Outdoor Air Handling Unit</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PatchDescription" xml:space="preserve">
+    <value>Patch Description</value>
+  </data>
+  <data name="PatchOptions" xml:space="preserve">
+    <value>Patch Options</value>
+  </data>
+  <data name="PatchStatus" xml:space="preserve">
+    <value>Patch Status</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="PerformanceandSavings" xml:space="preserve">
+    <value>Performance and Savings</value>
+  </data>
+  <data name="PerformanceInfo" xml:space="preserve">
+    <value>Identifies opportunities for better strategies regarding network security, energy performance and savings, equipment reliability, and occupant comfort.</value>
+  </data>
+  <data name="PerformScan" xml:space="preserve">
+    <value>Perform Scan</value>
+  </data>
+  <data name="PhysicalPoints" xml:space="preserve">
+    <value>Physical Points</value>
+  </data>
+  <data name="PointCategorization" xml:space="preserve">
+    <value>Point Categorization</value>
+  </data>
+  <data name="PointDescription" xml:space="preserve">
+    <value>Point Description</value>
+  </data>
+  <data name="PointExtendedLabel" xml:space="preserve">
+    <value>Point Extended Label</value>
+  </data>
+  <data name="PointName" xml:space="preserve">
+    <value>Point Name</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="PointType" xml:space="preserve">
+    <value>Point Type</value>
+  </data>
+  <data name="PointTypeId" xml:space="preserve">
+    <value>Point Type Id</value>
+  </data>
+  <data name="Prerequisite" xml:space="preserve">
+    <value>Prerequisite</value>
+  </data>
+  <data name="Pressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Priority0to39" xml:space="preserve">
+    <value>Priority 0-39</value>
+  </data>
+  <data name="Priority140to255" xml:space="preserve">
+    <value>Priority 140-255</value>
+  </data>
+  <data name="Priority40to79" xml:space="preserve">
+    <value>Priority 40-79</value>
+  </data>
+  <data name="Priority80to139" xml:space="preserve">
+    <value>Priority 80-139</value>
+  </data>
+  <data name="ProInfoParagraph" xml:space="preserve">
+    <value>Provide unique information to assist in tracking and trending information for a particular customer location.</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ProjectCreatedDate" xml:space="preserve">
+    <value>Project Created Date</value>
+  </data>
+  <data name="ProjectDetails" xml:space="preserve">
+    <value>Project Details</value>
+  </data>
+  <data name="ProjectInformation" xml:space="preserve">
+    <value>Project Information</value>
+  </data>
+  <data name="ProjectList" xml:space="preserve">
+    <value>Project List</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="PvtFile" xml:space="preserve">
+    <value>.PVT File</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RecentProjects" xml:space="preserve">
+    <value>Recent Projects</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>Required Field</value>
+  </data>
+  <data name="RescanSelect" xml:space="preserve">
+    <value>Rescan Selected</value>
+  </data>
+  <data name="RescanSelected" xml:space="preserve">
+    <value>Rescan</value>
+  </data>
+  <data name="RestoreDown" xml:space="preserve">
+    <value>Restore Down</value>
+  </data>
+  <data name="ResultExcel" xml:space="preserve">
+    <value>File downloaded successfully</value>
+  </data>
+  <data name="RiserView" xml:space="preserve">
+    <value>Riser View</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="SampleRate" xml:space="preserve">
+    <value>Sample Rate</value>
+  </data>
+  <data name="SamplesLost" xml:space="preserve">
+    <value>Samples Lost</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Save as PVT</value>
+  </data>
+  <data name="ScanningType" xml:space="preserve">
+    <value>Scanning Type</value>
+  </data>
+  <data name="ScanPoints" xml:space="preserve">
+    <value>Scan Points</value>
+  </data>
+  <data name="ScanSelected" xml:space="preserve">
+    <value>Scan Selected</value>
+  </data>
+  <data name="Scheduled" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="ScheduleType" xml:space="preserve">
+    <value>Schedule Type</value>
+  </data>
+  <data name="Scheduling" xml:space="preserve">
+    <value>Scheduling</value>
+  </data>
+  <data name="SCTArchive" xml:space="preserve">
+    <value>SCT Archive</value>
+  </data>
+  <data name="SecurityandStandards" xml:space="preserve">
+    <value>Security and Standards</value>
+  </data>
+  <data name="SelectBranch" xml:space="preserve">
+    <value>Select Branch</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server :</value>
+  </data>
+  <data name="ServerInfoParagraph" xml:space="preserve">
+    <value>Provide the intended login credentials for use during the scan of the customer's site.</value>
+  </data>
+  <data name="ServerInformation" xml:space="preserve">
+    <value>Server Information</value>
+  </data>
+  <data name="ServerOS" xml:space="preserve">
+    <value>Server OS :</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>Servers :</value>
+  </data>
+  <data name="ShowCo2SetPnt" xml:space="preserve">
+    <value>Show CO2 Setpoint</value>
+  </data>
+  <data name="ShowCo2SpSetPnt" xml:space="preserve">
+    <value>Show CO2-SP Setpoint</value>
+  </data>
+  <data name="ShowDATSetPnt" xml:space="preserve">
+    <value>Show DAT Setpoint</value>
+  </data>
+  <data name="ShowDATSPSetPnt" xml:space="preserve">
+    <value>Show DAT-SP Setpoint</value>
+  </data>
+  <data name="ShowDSPSetPnt" xml:space="preserve">
+    <value>Show DAP Setpoint</value>
+  </data>
+  <data name="ShowDSPSPSetPnt" xml:space="preserve">
+    <value>Show DAP-SP Setpoint</value>
+  </data>
+  <data name="ShowScheduled" xml:space="preserve">
+    <value>Show Scheduled</value>
+  </data>
+  <data name="ShowUnscheduled" xml:space="preserve">
+    <value>Show Unscheduled</value>
+  </data>
+  <data name="SiteAssessmentTool" xml:space="preserve">
+    <value>Metasys Performance Verification Tool</value>
+  </data>
+  <data name="SiteExceeding" xml:space="preserve">
+    <value>% Site Exceeding MSEA Recommendations</value>
+  </data>
+  <data name="SiteInformation" xml:space="preserve">
+    <value>Scanned Information</value>
+  </data>
+  <data name="SiteScan" xml:space="preserve">
+    <value>Site Scan</value>
+  </data>
+  <data name="SiteScanParagraph" xml:space="preserve">
+    <value>Select the type of scan you wish to perform.</value>
+  </data>
+  <data name="SQLVersion" xml:space="preserve">
+    <value>SQL Version :</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StdNamingConversion" xml:space="preserve">
+    <value>Standard Naming Conversion</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="SupervisoryDeviceInformation" xml:space="preserve">
+    <value>Supervisory Device Information</value>
+  </data>
+  <data name="SupervisoryDevices" xml:space="preserve">
+    <value>Supervisory Devices :</value>
+  </data>
+  <data name="SupervisoryDevicesMain" xml:space="preserve">
+    <value>Supervisory Devices</value>
+  </data>
+  <data name="SystemName" xml:space="preserve">
+    <value>System Name</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="ThirdPartyVsJCIDevices" xml:space="preserve">
+    <value>3rd Party Vs JCI Devices</value>
+  </data>
+  <data name="TimeBetweenBufferReads" xml:space="preserve">
+    <value>Time Between Buffer Reads</value>
+  </data>
+  <data name="ToOpen" xml:space="preserve">
+    <value>to open</value>
+  </data>
+  <data name="TotalHrs" xml:space="preserve">
+    <value>Total Hrs</value>
+  </data>
+  <data name="TotalPointCnt" xml:space="preserve">
+    <value>Total Point Count</value>
+  </data>
+  <data name="TotalPointCount" xml:space="preserve">
+    <value>No. of Objects :</value>
+  </data>
+  <data name="TransferBufferInUse" xml:space="preserve">
+    <value>Transfer Buffer In Use</value>
+  </data>
+  <data name="TransportFailureRate" xml:space="preserve">
+    <value>Transport Failure Rate</value>
+  </data>
+  <data name="TrendPoints" xml:space="preserve">
+    <value>Trend Samples</value>
+  </data>
+  <data name="TrendsCount" xml:space="preserve">
+    <value>Trend Samples</value>
+  </data>
+  <data name="ULListedDevices" xml:space="preserve">
+    <value>U/L Listed Devices</value>
+  </data>
+  <data name="UnboundAllObjMsg" xml:space="preserve">
+    <value>All objects VS Unbound References</value>
+  </data>
+  <data name="UnboundReferences" xml:space="preserve">
+    <value>Unbound References</value>
+  </data>
+  <data name="UnboundRefMsg" xml:space="preserve">
+    <value>Unbound References distribution by Supervisory Devices</value>
+  </data>
+  <data name="Undetermined" xml:space="preserve">
+    <value>Undetermined</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Unscheduled" xml:space="preserve">
+    <value>Unscheduled</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="When" xml:space="preserve">
+    <value>When</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CustomerInformation" xml:space="preserve">
+    <value>Customer Information</value>
+  </data>
+  <data name="CustomerName" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Zip Code</value>
+  </data>
+  <data name="Fansalwaysrunning100" xml:space="preserve">
+    <value>Fans always running at maximum speed</value>
+  </data>
+  <data name="Fansnotalwaysrunning100" xml:space="preserve">
+    <value>Fans not always running at maximum speed</value>
+  </data>
+  <data name="EditProject" xml:space="preserve">
+    <value>Edit Project</value>
+  </data>
+  <data name="Preference" xml:space="preserve">
+    <value>Preference</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>[Full Screen]</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Select Language</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="DeleteProject" xml:space="preserve">
+    <value>Delete Project</value>
+  </data>
+  <data name="EnterOtherBranchName" xml:space="preserve">
+    <value>Enter Other Branch Name</value>
+  </data>
+  <data name="EquipSearchCriteria" xml:space="preserve">
+    <value>Equipment Type Criteria</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="FieldPointSearchCriteria" xml:space="preserve">
+    <value>Field Points Searching Criteria</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Generate Report</value>
+  </data>
+  <data name="InstanceNumberSearchCriteria" xml:space="preserve">
+    <value>MSTP Instance Number Searching Criteria</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="CompareProjectsFrom" xml:space="preserve">
+    <value>Compare Projects from</value>
+  </data>
+  <data name="CompareProjInfo" xml:space="preserve">
+    <value>Select the two projects to see the differences between.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="CompareType" xml:space="preserve">
+    <value>Compare Type</value>
+  </data>
+  <data name="FirstProjectFile" xml:space="preserve">
+    <value>First Project File</value>
+  </data>
+  <data name="FromFile" xml:space="preserve">
+    <value>.PVT File</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="SecondProjectFile" xml:space="preserve">
+    <value>Second Project File</value>
+  </data>
+  <data name="OpeningPvtFileStatus" xml:space="preserve">
+    <value>Opening PVT file...</value>
+  </data>
+  <data name="ControllerPieChartTitle" xml:space="preserve">
+    <value>Controller Firmware Versions</value>
+  </data>
+  <data name="NoOfFieldControllers" xml:space="preserve">
+    <value>No. of Field Controllers : </value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RescanProject" xml:space="preserve">
+    <value>Rescan Project</value>
+  </data>
+  <data name="ScanningProgress" xml:space="preserve">
+    <value>Scanning Progress</value>
+  </data>
+  <data name="CurrentDay" xml:space="preserve">
+    <value>Current Day</value>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="OccupiedTime" xml:space="preserve">
+    <value>Occupied Time</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+  <data name="ScanningInitializing" xml:space="preserve">
+    <value>Scanning initializing...</value>
+  </data>
+  <data name="ScanningProgressExecutingRules" xml:space="preserve">
+    <value>Executing rules...</value>
+  </data>
+  <data name="ScanningProgressSaveSuccess" xml:space="preserve">
+    <value>Save successfully</value>
+  </data>
+  <data name="ScanSelectedLimit" xml:space="preserve">
+    <value>Maxmium of 10</value>
+  </data>
+  <data name="SelectScanType" xml:space="preserve">
+    <value>Select Scan Type</value>
+  </data>
+  <data name="ExportingTaskingEstimation" xml:space="preserve">
+    <value>Exporting tasking estimation...</value>
+  </data>
+  <data name="ExportingTaskingList" xml:space="preserve">
+    <value>Exporting tasking list...</value>
+  </data>
+  <data name="ExportingToExcel" xml:space="preserve">
+    <value>Exporting to excel...</value>
+  </data>
+  <data name="GlobalId" xml:space="preserve">
+    <value>Global ID</value>
+  </data>
+  <data name="ProvideCreds" xml:space="preserve">
+    <value>Please provide credentials for authentication.</value>
+  </data>
+  <data name="SavingPvtFile" xml:space="preserve">
+    <value>Saving .PVT file ...</value>
+  </data>
+  <data name="ServerAuthentication" xml:space="preserve">
+    <value>Server Authentication</value>
+  </data>
+  <data name="UserAuthentication" xml:space="preserve">
+    <value>User Athentication</value>
+  </data>
+  <data name="YourLicenseExpired" xml:space="preserve">
+    <value>Your License has been expired.</value>
+  </data>
+  <data name="AllEquipments" xml:space="preserve">
+    <value>All Equipments</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="LanguageSettings" xml:space="preserve">
+    <value>Language Settings</value>
+  </data>
+  <data name="SetLangDescription1" xml:space="preserve">
+    <value>Allows to shift from one language to another to simplify PVT program usages.</value>
+  </data>
+  <data name="SetLangDescription2" xml:space="preserve">
+    <value>(User Interface and report exports in preferred language set)</value>
+  </data>
+  <data name="Contains" xml:space="preserve">
+    <value>Contains</value>
+  </data>
+  <data name="NoOfEquipmentDefs" xml:space="preserve">
+    <value>No. of Equipment Definitions:</value>
+  </data>
+  <data name="NoOfObjects" xml:space="preserve">
+    <value>No. of Objects :</value>
+  </data>
+  <data name="InitializingServerScan" xml:space="preserve">
+    <value>Initializing server scan...</value>
+  </data>
+  <data name="ScanningMetasysUsers" xml:space="preserve">
+    <value>Scanning Metasys users...</value>
+  </data>
+  <data name="ScanningProgressExecutingPerfRules" xml:space="preserve">
+    <value>Executing performance rule, please wait...</value>
+  </data>
+  <data name="ScanningProgressExecutingPtRules" xml:space="preserve">
+    <value>Executing point rule...</value>
+  </data>
+  <data name="ScanningProgressFldPtScanInitializing" xml:space="preserve">
+    <value>Field point scan initializing</value>
+  </data>
+  <data name="ScanningProgressOpsCompleted" xml:space="preserve">
+    <value>Operation completed</value>
+  </data>
+  <data name="ScanningProgressScanController" xml:space="preserve">
+    <value>Scanning controller : </value>
+  </data>
+  <data name="ScanningProgressScanningFldBus" xml:space="preserve">
+    <value>Scanning field bus : </value>
+  </data>
+  <data name="ScanningProgressScanSupDevice" xml:space="preserve">
+    <value>Scanning supervisory device or Server :</value>
+  </data>
+  <data name="ScanningProgressScanTrend" xml:space="preserve">
+    <value>Scanning trend : </value>
+  </data>
+  <data name="NofMSelected" xml:space="preserve">
+    <value>{0} of {1} selected</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="ScanType" xml:space="preserve">
+    <value>Scan Type</value>
+  </data>
+  <data name="BestPracticeLink" xml:space="preserve">
+    <value>Watch Best Practices Videos</value>
+  </data>
+  <data name="DemoLink" xml:space="preserve">
+    <value>Find all PVT tutorial videos here</value>
+  </data>
+  <data name="FindPvtRelatedNews" xml:space="preserve">
+    <value>Find all PVT related news and announcements here</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ReleaseNote1" xml:space="preserve">
+    <value>More secure connection method to Metasys system</value>
+  </data>
+  <data name="ReleaseNote2" xml:space="preserve">
+    <value>Edit project information of existing projects</value>
+  </data>
+  <data name="ReleaseNote3" xml:space="preserve">
+    <value>Delete projects from local machine</value>
+  </data>
+  <data name="ReleaseNote4" xml:space="preserve">
+    <value>Access sites with different communication port by specifying port# after IP/Hostname followed by colon (:)</value>
+  </data>
+  <data name="ReleaseNote5" xml:space="preserve">
+    <value>Non-North American branches can now select 'Others' to enter branch details</value>
+  </data>
+  <data name="ProjectTitle" xml:space="preserve">
+    <value>PERFORMANCE VERIFICATION TOOL (PVT)</value>
+  </data>
+  <data name="AllValves" xml:space="preserve">
+    <value>All Valves</value>
+  </data>
+  <data name="CompliantDeviceTooltip" xml:space="preserve">
+    <value>Compliant Devices - 
+	devices within all Metasys recommendations.
+	
+	Non-Compliant Devices - 
+	devices that exceed at least one Metasys recommendation.</value>
+  </data>
+  <data name="NoOfAlarmEvents" xml:space="preserve">
+    <value>No. of Alarm/Events : </value>
+  </data>
+  <data name="NoOfDuplicateBacNetIds" xml:space="preserve">
+    <value>No. of Duplicate BACnet IDs of</value>
+  </data>
+  <data name="NoOfEquipments" xml:space="preserve">
+    <value>No. of Equipments : </value>
+  </data>
+  <data name="NoOfPoints" xml:space="preserve">
+    <value>No. of Points : </value>
+  </data>
+  <data name="NoOfUnboundReferencesIn" xml:space="preserve">
+    <value>No. of Unbound References in</value>
+  </data>
+  <data name="ToolVersion" xml:space="preserve">
+    <value>Metasys Performance Verification Tool version {0}</value>
+  </data>
+  <data name="AHUCOSetPnt" xml:space="preserve">
+    <value>AHU CO2 Setpoint</value>
+  </data>
+  <data name="Analysis" xml:space="preserve">
+    <value>Analysis</value>
+  </data>
+  <data name="BackNetDevice" xml:space="preserve">
+    <value>Backnet Device</value>
+  </data>
+  <data name="CmpPrjFeatureAssessment" xml:space="preserve">
+    <value>Compare Projects Feature Assessment</value>
+  </data>
+  <data name="CmpPrjInventory" xml:space="preserve">
+    <value>Compare Projects Inventory</value>
+  </data>
+  <data name="CmpPrjPerforamnce" xml:space="preserve">
+    <value>Compare Projects Performance</value>
+  </data>
+  <data name="DLLR" xml:space="preserve">
+    <value>DLLR</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="FirmwareVulnerability" xml:space="preserve">
+    <value>Firmware Vulnerability</value>
+  </data>
+  <data name="MainPage" xml:space="preserve">
+    <value>Main Page</value>
+  </data>
+  <data name="MetasysUI" xml:space="preserve">
+    <value>Metasys UI</value>
+  </data>
+  <data name="NoChangeInDirtyFilter" xml:space="preserve">
+    <value>No change in Dirty Filter</value>
+  </data>
+  <data name="NoDirtyFilter" xml:space="preserve">
+    <value>No Dirty Filter</value>
+  </data>
+  <data name="OptimalStart" xml:space="preserve">
+    <value>Optimal Start</value>
+  </data>
+  <data name="RescanPerformance" xml:space="preserve">
+    <value>Rescan Performance</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SiteExceed" xml:space="preserve">
+    <value>Site Exceed</value>
+  </data>
+  <data name="SolarClock" xml:space="preserve">
+    <value>Solar Clock</value>
+  </data>
+  <data name="TailoredSummary" xml:space="preserve">
+    <value>Tailored Summary</value>
+  </data>
+  <data name="UserViews" xml:space="preserve">
+    <value>User Views</value>
+  </data>
+  <data name="LogicAlarm" xml:space="preserve">
+    <value>Identifies objects with alarms in the Metasys system and groups them based on alarm priority. 
+	
+	Alarms should be investigated and acknowledged because they could be an indication of equipment issues or other underlying root causes that need to be addressed. Or it could mean that alarm thresholds could be adjusted to produce fewer alarms so that operators can focus on alarms that are true indicators of problems</value>
+  </data>
+  <data name="LogicPointCat" xml:space="preserve">
+    <value>Analyzes the effective use of object authorization categories on the site. 
+	
+	Consider using the authorization categories of objects to configure user access privileges and intelligent alarm routing.</value>
+  </data>
+  <data name="InventoryPointInfo" xml:space="preserve">
+    <value>Include point level scan to get a complete hardware point listing and attempt to identify the equipment that is being controlled.</value>
+  </data>
+  <data name="PerformanceNote" xml:space="preserve">
+    <value>Note :  Performance automatically scans points as well.</value>
+  </data>
+  <data name="FilterCustom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="FilterDoesNotContain" xml:space="preserve">
+    <value>Does not contain</value>
+  </data>
+  <data name="FilterEndsWith" xml:space="preserve">
+    <value>Ends with</value>
+  </data>
+  <data name="FilterEquals" xml:space="preserve">
+    <value>Equals</value>
+  </data>
+  <data name="FilterIsNotNull" xml:space="preserve">
+    <value>Is not null</value>
+  </data>
+  <data name="FilterIsNull" xml:space="preserve">
+    <value>Is null</value>
+  </data>
+  <data name="FilterNoFilter" xml:space="preserve">
+    <value>No filter</value>
+  </data>
+  <data name="FilterNotEqualTo" xml:space="preserve">
+    <value>Not equals to</value>
+  </data>
+  <data name="FilterStartsWith" xml:space="preserve">
+    <value>Starts with</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="AHUDAPSPVariationFromSetpoint" xml:space="preserve">
+    <value>AHU DAP-SP Variation from Setpoint</value>
+  </data>
+  <data name="AHUDATVariationFromSetpoint" xml:space="preserve">
+    <value>AHU DA-T Variation from Setpoint</value>
+  </data>
+  <data name="AHUFilterStatusClean" xml:space="preserve">
+    <value>AHUs - Filter Status - Clean</value>
+  </data>
+  <data name="AHUFilterStatusDirty" xml:space="preserve">
+    <value>AHUs - Filter Status - Dirty</value>
+  </data>
+  <data name="AHUWithoutResetStrategies" xml:space="preserve">
+    <value>AHUs without reset strategies</value>
+  </data>
+  <data name="AHUWithResetStrategies" xml:space="preserve">
+    <value>AHUs with reset strategies</value>
+  </data>
+  <data name="AllPoints" xml:space="preserve">
+    <value>All Points</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="DuplicateBACnetIDs" xml:space="preserve">
+    <value>Duplicate BACnet IDs</value>
+  </data>
+  <data name="FilterBetween" xml:space="preserve">
+    <value>Between</value>
+  </data>
+  <data name="FilterGreaterThan" xml:space="preserve">
+    <value>Greater than</value>
+  </data>
+  <data name="FilterGreaterThanOrEqualTo" xml:space="preserve">
+    <value>Greater than or equal to</value>
+  </data>
+  <data name="FilterLessThan" xml:space="preserve">
+    <value>Less than</value>
+  </data>
+  <data name="FilterLessThanOrEqualTo" xml:space="preserve">
+    <value>Less than or equal to</value>
+  </data>
+  <data name="FilterNotbetween" xml:space="preserve">
+    <value>Not between</value>
+  </data>
+  <data name="NoOfEnginesPerFirmwareVersion" xml:space="preserve">
+    <value>No. of engines per firmware version</value>
+  </data>
+  <data name="NoOfOverriddenObjectsOf" xml:space="preserve">
+    <value>No. of overridden objects of</value>
+  </data>
+  <data name="NoOfValves" xml:space="preserve">
+    <value>No. of Valves: </value>
+  </data>
+  <data name="OtherDevices" xml:space="preserve">
+    <value>Other Devices</value>
+  </data>
+  <data name="ScanningProgressScanningFldPnt" xml:space="preserve">
+    <value>Scanning field point : </value>
+  </data>
+  <data name="UndeterminedUnreliableOATSensor" xml:space="preserve">
+    <value>Undetermined (unreliable OA-T sensor)</value>
+  </data>
+  <data name="EnterToSearchFor" xml:space="preserve">
+    <value>Entering to search for :</value>
+  </data>
+  <data name="FieldPointList" xml:space="preserve">
+    <value>Field Point List :</value>
+  </data>
+  <data name="AdminUserMessageOne" xml:space="preserve">
+    <value>Determines whether or not every user has Administrative privileges.</value>
+  </data>
+  <data name="AdminUsersMessageTwo" xml:space="preserve">
+    <value>Risk: Providing Administrative privileges to all users is not recommended as it</value>
+  </data>
+  <data name="ApplyFilter" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="CompareDifferences" xml:space="preserve">
+    <value>Differences</value>
+  </data>
+  <data name="CompareSideBySide" xml:space="preserve">
+    <value>Side by Side</value>
+  </data>
+  <data name="Compliant" xml:space="preserve">
+    <value>Compliant</value>
+  </data>
+  <data name="CopyrightText" xml:space="preserve">
+    <value>Copyright @ 2018 Johnson Controls, Inc.</value>
+  </data>
+  <data name="DefaultPasswordMessageOne" xml:space="preserve">
+    <value>Identifies whether or not the Metasys Default user and password are being used.</value>
+  </data>
+  <data name="DefaultPasswordMessageTwo" xml:space="preserve">
+    <value>Risk: The default Metasys credentials are public knowledge. Please consider disabling this user or modifying the password.</value>
+  </data>
+  <data name="DLLRMain" xml:space="preserve">
+    <value>Demand Limiting Load Rolling (DLLR)</value>
+  </data>
+  <data name="DLLRMoreInfo" xml:space="preserve">
+    <value>For more information on DLLR, please reference literature document</value>
+  </data>
+  <data name="DormantAcountMessage" xml:space="preserve">
+    <value>Identifies users that have not logged into Metasys within the last 6 months.</value>
+  </data>
+  <data name="EquipmentList" xml:space="preserve">
+    <value>Equipment List :</value>
+  </data>
+  <data name="FeatureAssessMessageOne" xml:space="preserve">
+    <value>Review the following Metasys feature sets that are currently underutilized on this site. </value>
+  </data>
+  <data name="FeatureAssessMessageThree" xml:space="preserve">
+    <value>If applicable, consider implementing new features to drive value for your customers. </value>
+  </data>
+  <data name="FeatureAssessMessageTwo" xml:space="preserve">
+    <value>This wizard will describe to you the benefit of each feature.</value>
+  </data>
+  <data name="ForMoreDetails" xml:space="preserve">
+    <value>For More Details</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ImportExportHeader" xml:space="preserve">
+    <value>Please select the Excel file from which you want to import the
+searching criteria.</value>
+  </data>
+  <data name="ImportSearchCriteria" xml:space="preserve">
+    <value>Import Search Criteria</value>
+  </data>
+  <data name="ImportStatusImporting" xml:space="preserve">
+    <value>Importing from excel. Please Wait...</value>
+  </data>
+  <data name="AnalysisSummary" xml:space="preserve">
+    <value>Please visit search criteria under preferences to ensure that proper terms/instance numbers are being searched for.</value>
+  </data>
+  <data name="JCIDevices" xml:space="preserve">
+    <value>JCI Devices</value>
+  </data>
+  <data name="LogicAHUCO" xml:space="preserve">
+    <value>Analyzes the CO2 sensor object value for a trended period of 24 hours and calculates an average deviation from setpont of each Air Handling Units(AHU). If the calculated average deviation from setpoint is greater than user specified deviation limit, the equipment is flagged.
+
+(Average CO2 sensor value ~ Average Setpoint) &gt; User specified value.</value>
+  </data>
+  <data name="LogicAHUDASP" xml:space="preserve">
+    <value>Analyzes the Duct Static Pressure object value for a trended period of 24 hours and calculates an average deviation from setpont of each Air Handling Units(AHU). If the calculated average deviation from setpoint is greater than user specified deviation limit, the equipment is flagged.
+
+(Average Duct Static Pressure ~ Average Setpoint) &gt; User specified value.</value>
+  </data>
+  <data name="LogicAHUDAT" xml:space="preserve">
+    <value>Analyzes the Discharge Air Temperature object value for a trended period of 24 hours and calculates an average deviation from setpont of each Air Handling Units(AHU). If the calculated average deviation from setpoint is greater than user specified deviation limit, the equipment is flagged.
+
+(Average Discharge Air Temp ~ Average Setpoint) &gt; User specified value.</value>
+  </data>
+  <data name="LogicAHUPress" xml:space="preserve">
+    <value>If Discharge Air Temperature Setpoint or Duct Static Pressure Setpoint does not have a change of value within a 24 hour period, then it is assumed that no reset strategy is implemented and the device will be flagged as have “No Reset Strategy”.
+    
+    If neither point can be found based on the search criteria or neither point has a trend, then the device will be marked as “Undetermined”.</value>
+  </data>
+  <data name="LogicBacknet" xml:space="preserve">
+    <value>If more than one controller on the entire network has the same BACnet ID, the controller will be included in the duplicate BACnet ID list.
+	
+	Controllers with duplicate BACnet IDs may cause communication problems when non-Metasys devices are part of the network.</value>
+  </data>
+  <data name="LogicDirty" xml:space="preserve">
+    <value>Of the equipment identified as Air Handling Units (AHUs), if the Differential Pressure Switch object value shows "Dirty" or the Differential Pressure Sensor object value shows a pressure drop of greater than user specified limit, then device is considered to have a dirty filter.
+
+If the Differential Pressure Switch object value shows "Clean" and the Differential Pressure Sensor object value shows a pressure drop of lesser than user specified limit, then device is considered to have a clean filter.
+
+If neither of the identified objects can be found based on the search criteria (configured using preference menu), then the equipment is categorized as “Undetermined”.</value>
+  </data>
+  <data name="LogicEconomizer" xml:space="preserve">
+    <value>Of the equipment identified as Air Handling Units (AHUs), if the Economizer Status object value is True when the Outdoor Air Temperature object value is less than the Discharge Air Temperature Set Point object value during a trended 24-hour period, then the equipment will be categorized as “AHUs With Economizer”. 
+	
+	If the Economizer Status object value is not True when the Outdoor Air Temperature object value is less than the Discharge Air Temperature Set Point object value during a trended 24-hour period, the equipment will be categorized as “AHUs Without Economizer”.
+	
+	If none of the required objects are found based on the search criteria (configured using the options under the Preference menu) or they do not have trends, the equipment will be categorized as “Undetermined”.</value>
+  </data>
+  <data name="LogicFanMotor" xml:space="preserve">
+    <value>Of the equipment identified as Air Handling Units (AHUs), if the Supply Fan Output object value is always at maximum speed (user specified) for a trended period of 24 hours, then the equipment is categorized as "Fan always running at maximum speed".
+
+If the Supply Fan Output object value is seen modulating between 0% to maximum speed (user specified) for a trended period of 24 hours, then the equipment is categorized as "Fans always not running at maximum speed".
+
+If Supply Fan Output is not found based on search criteria (configured using preference menu) or do not have trend, then device is categorized as “Undetermined”.</value>
+  </data>
+  <data name="LogicHeating" xml:space="preserve">
+    <value>Of the equipment identified as Air Handling Unit (AHUs), if the Heating Output object value is greater than 0%  and the Outdoor Air Temperature object value is above the user specified value for a trended period of 24 hours, then the equipment is producing "Heating Waste”.
+
+If the Cooling Output object value is greater than 0% and the Outdoor Air Temperature object value is below user specified value for a trended period of 24 hours then the equipment is producing "Cooling Waste".
+
+If none of the objects or trends identified above could be found based on the search criteria(configured using preference menu), the equipment is considered “Undetermined”.</value>
+  </data>
+  <data name="LogicMissingPoint" xml:space="preserve">
+    <value>Identifies objects that could be added to the scanned controllers in the Metasys system to allow PVT to provide more valuable results.</value>
+  </data>
+  <data name="LogicMissingTrend" xml:space="preserve">
+    <value>Identifies objects in the Metasys system that should have trend samples to allow PVT to provide more valuable results.</value>
+  </data>
+  <data name="LogicOperator" xml:space="preserve">
+    <value>Lists objects that are currently in an operator override state. Investigate and release the override if no longer needed to allow Metasys to automate control of that object.
+	
+	Beginning with Metasys 7.0 the Temporary Operator Override feature was added to prevent objects from remaining overridden for long periods of time.</value>
+  </data>
+  <data name="LogicOutdoor" xml:space="preserve">
+    <value>Of the equipment identified as Air Handling Units (AHUs), if the Mixed Air Damper and Mixed Air Temperature objects are found, or the Outdoor Air Damper object value shows variable modulation between 0% and 100%, then the device is categorized as “AHU Without 100% Outdoor Air”.
+    
+    If neither Mixed Air objects are found and the Outdoor Air Damper object value shows 2-stage operation (0% or 100%), then the device is categorized as “AHU With 100% Outdoor Air”.
+    
+    If none of the objects identified above are found based on the search criteria (configured using the options under the Preference menu), the device is categorized as “Undetermined”.</value>
+  </data>
+  <data name="LogicScheduling" xml:space="preserve">
+    <value>If the Occupancy command object of an equipment has a priority between the user specified priority limits in its priority array, equipment is considered "Scheduled". If no value exists in the priority array between the user specified limit, then the equipment is considered "Unscheduled".
+
+If the Occupancy command object cannot be found based on the user defined search criteria for an equipment, the equipment is considered as "Undetermined".</value>
+  </data>
+  <data name="LogicULList" xml:space="preserve">
+    <value>Provides a list of U/L Listed Devices, based on the Model Name.</value>
+  </data>
+  <data name="LogicUnbound" xml:space="preserve">
+    <value>Lists references that are not bound in the system. This indicates that a process cannot find an object either because the device on which the object is located is offline, the object has been deleted, or the object reference is incorrect.</value>
+  </data>
+  <data name="MetasysUIMoreInfo" xml:space="preserve">
+    <value>For more information on Metasys UI, please reference literature document</value>
+  </data>
+  <data name="NonCompliant" xml:space="preserve">
+    <value>Non-Compliant</value>
+  </data>
+  <data name="NonScannedDevice" xml:space="preserve">
+    <value>Non Scanned Device</value>
+  </data>
+  <data name="NoOfControllerTemplates" xml:space="preserve">
+    <value>No. of Controller Templates: </value>
+  </data>
+  <data name="NoOfMissingPoints" xml:space="preserve">
+    <value>No. of Missing Points : </value>
+  </data>
+  <data name="OptimalStartMoreInfo" xml:space="preserve">
+    <value>For more information on Optimal Start, please reference literature document</value>
+  </data>
+  <data name="PointsWithoutOverride" xml:space="preserve">
+    <value>Points Without Override</value>
+  </data>
+  <data name="PointsWithOverride" xml:space="preserve">
+    <value>Points With Override</value>
+  </data>
+  <data name="ScannedDevice" xml:space="preserve">
+    <value>Scanned Device</value>
+  </data>
+  <data name="ServerRecommendations" xml:space="preserve">
+    <value>Server Recommendations</value>
+  </data>
+  <data name="SolarClockMoreInfo" xml:space="preserve">
+    <value>For more information on User Views, please reference literature document</value>
+  </data>
+  <data name="TailoredSummaryMoreInfo" xml:space="preserve">
+    <value>For more information on Tailored Summaries, please reference literature document</value>
+  </data>
+  <data name="TailoredSummaryMoreInfoHowTo" xml:space="preserve">
+    <value>for short “how-to” videos.</value>
+  </data>
+  <data name="ThirdPartyDevices" xml:space="preserve">
+    <value>3rd Party Devices</value>
+  </data>
+  <data name="UserViewsMoreInfo" xml:space="preserve">
+    <value>For more information on User Views, please reference literature document</value>
+  </data>
+  <data name="FeatureAssessmentMessage" xml:space="preserve">
+    <value>All Metasys features are utilized on this site 
+	i.e Optimal Start, DLLR, Users Views,Solar Clock,
+	Tailored Summary, MetasysUI</value>
+  </data>
+  <data name="FeatureAssessmentMessageBoth" xml:space="preserve">
+    <value>All Metasys features are utilized on both projects 
+	i.e Optimal Start, DLLR, Users Views,Solar Clock,
+	Tailored Summary, MetasysUI</value>
+  </data>
+  <data name="PVTUpdateAvailable" xml:space="preserve">
+    <value>PVT Update available</value>
+  </data>
+  <data name="PVTUpdateText" xml:space="preserve">
+    <value>A new version of PVT is ready to be installed. 
+	Click here to download</value>
+  </data>
+  <data name="AllAdminUserMessage" xml:space="preserve">
+    <value>All users have administrative privileges</value>
+  </data>
+  <data name="AllNotAdminUserMessage" xml:space="preserve">
+    <value>Not all users have administrative privileges</value>
+  </data>
+  <data name="Fansalwaysrunning" xml:space="preserve">
+    <value>Fans always running</value>
+  </data>
+  <data name="Fansnotalwaysrunning" xml:space="preserve">
+    <value>Fans not always running</value>
+  </data>
+  <data name="FirmwareVersionQuantityLessthan2Percent" xml:space="preserve">
+    <value>Firmware versions quantity &lt; 2% : </value>
+  </data>
+  <data name="InAHUFanMotorAlwasyRunning100" xml:space="preserve">
+    <value>in AHU Fan Motors always running at maximum speed.</value>
+  </data>
+  <data name="InAHUWith100PercentOAHUs" xml:space="preserve">
+    <value>in AHU With 100% OAHUs</value>
+  </data>
+  <data name="InAHUWithoutEconomizerStrategy" xml:space="preserve">
+    <value>in AHU without an Economizer Strategy</value>
+  </data>
+  <data name="InAHUWithoutResetStrategy" xml:space="preserve">
+    <value>in AHUs without a Reset Strategy</value>
+  </data>
+  <data name="InUnscheduledEquipment" xml:space="preserve">
+    <value>in Unscheduled equipment</value>
+  </data>
+  <data name="MissingTrendSamples" xml:space="preserve">
+    <value>Missing Trend Samples</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="NoAHUFanMotorAlwasyRunning100" xml:space="preserve">
+    <value>No AHU Fan Motors always running at maximum speed</value>
+  </data>
+  <data name="NoAHUWith100PercentOAHUs" xml:space="preserve">
+    <value>No AHU With 100% OAHUs</value>
+  </data>
+  <data name="NoAHUWithoutEconomizerStrategy" xml:space="preserve">
+    <value>No AHU without an Economizer Strategy</value>
+  </data>
+  <data name="NoAHUWithoutResetStrategy" xml:space="preserve">
+    <value>No AHUs without a Reset Strategy</value>
+  </data>
+  <data name="NoAlarmEvents" xml:space="preserve">
+    <value>No Alarm/Events</value>
+  </data>
+  <data name="NoChangeInAHUFanMotorAlwasyRunning100" xml:space="preserve">
+    <value>No change in AHU Fan Motors always running at maximum speed</value>
+  </data>
+  <data name="NoChangeInAHUWith100PercentOAHUs" xml:space="preserve">
+    <value>No change in AHU With 100% OAHUs</value>
+  </data>
+  <data name="NoChangeInAHUWithoutEconomizerStrategy" xml:space="preserve">
+    <value>No change in AHU without an Economizer Strategy</value>
+  </data>
+  <data name="NoChangeInAHUWithoutResetStrategy" xml:space="preserve">
+    <value>No change in AHUs without a Reset Strategy</value>
+  </data>
+  <data name="NoChangeInAlarmEvents" xml:space="preserve">
+    <value>No change in Alarm/Events</value>
+  </data>
+  <data name="NoChangeInDormantAccounts" xml:space="preserve">
+    <value>No change In Dormant Accounts</value>
+  </data>
+  <data name="NoChangeInDuplicateBACnetIDs" xml:space="preserve">
+    <value>No change in Duplicate BACnet IDs</value>
+  </data>
+  <data name="NoChangeInMissingPoints" xml:space="preserve">
+    <value>No change in Missing Points</value>
+  </data>
+  <data name="NoChangeInOperatorOverridenPoints" xml:space="preserve">
+    <value>No change in Operator Overriden Points</value>
+  </data>
+  <data name="NoChangeInTrendSamples" xml:space="preserve">
+    <value>No change inTrend Samples</value>
+  </data>
+  <data name="NoChangeInULListedDevices" xml:space="preserve">
+    <value>No change in U/L Listed Devices</value>
+  </data>
+  <data name="NoChangeInUnboundReferences" xml:space="preserve">
+    <value>No change in Unbound References</value>
+  </data>
+  <data name="NoChangeInUnscheduledEquipment" xml:space="preserve">
+    <value>No change in Unscheduled equipment</value>
+  </data>
+  <data name="NoChangeWastefulHeatingCoolingValves" xml:space="preserve">
+    <value>No change in wasteful Heating/Cooling Valves</value>
+  </data>
+  <data name="NoDormantAccounts" xml:space="preserve">
+    <value>No Dormant Accounts</value>
+  </data>
+  <data name="NoDuplicateBACnetIDs" xml:space="preserve">
+    <value>No Duplicate BACnet IDs</value>
+  </data>
+  <data name="NoMissingPoints" xml:space="preserve">
+    <value>No Missing Points</value>
+  </data>
+  <data name="NoOfDevices" xml:space="preserve">
+    <value>No. of Devices - </value>
+  </data>
+  <data name="NoOperatorOverridenPoints" xml:space="preserve">
+    <value>No Operator Overriden Points</value>
+  </data>
+  <data name="NoTrendSample" xml:space="preserve">
+    <value>No Trend Sample</value>
+  </data>
+  <data name="NoULListedDevices" xml:space="preserve">
+    <value>No U/L Listed Devices</value>
+  </data>
+  <data name="NoUnboundReferences" xml:space="preserve">
+    <value>No Unbound References</value>
+  </data>
+  <data name="NoUnscheduledEquipment" xml:space="preserve">
+    <value>No Unscheduled equipment</value>
+  </data>
+  <data name="NoWastefulHeatingCoolingValves" xml:space="preserve">
+    <value>No wasteful Heating/Cooling Valves</value>
+  </data>
+  <data name="WastefulHeatingCoolingValves" xml:space="preserve">
+    <value>wasteful Heating/Cooling Valves</value>
+  </data>
+  <data name="DefaultUser" xml:space="preserve">
+    <value>Default User</value>
+  </data>
+  <data name="DefaultUsers" xml:space="preserve">
+    <value>Default Users</value>
+  </data>
+  <data name="NoDefaultUser" xml:space="preserve">
+    <value>No default user</value>
+  </data>
+  <data name="OperatorOverridenPoints" xml:space="preserve">
+    <value>Operator Overriden Points</value>
+  </data>
+  <data name="DeviceType" xml:space="preserve">
+    <value>DeviceType</value>
+  </data>
+  <data name="HeaderText" xml:space="preserve">
+    <value>Header Text</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Internal" xml:space="preserve">
+    <value>Internal</value>
+  </data>
+  <data name="ActualReading" xml:space="preserve">
+    <value>Actual Reading</value>
+  </data>
+  <data name="AHUCO2WithoutVariationFromSetpoint" xml:space="preserve">
+    <value>AHU CO2 Without Variation from Setpoint</value>
+  </data>
+  <data name="AHUDAPWithoutVariationSetPnt" xml:space="preserve">
+    <value>AHU DAP Without Variation from Setpoint</value>
+  </data>
+  <data name="AHUDATWithoutVariationFromSetpoint" xml:space="preserve">
+    <value>AHU DA-T Without Variation from Setpoint</value>
+  </data>
+  <data name="AnalogOutput" xml:space="preserve">
+    <value>Analog Output :</value>
+  </data>
+  <data name="BackupDatabase" xml:space="preserve">
+    <value>Backup Database</value>
+  </data>
+  <data name="BuildingAutomationSystemReading" xml:space="preserve">
+    <value>Building Automation System Reading</value>
+  </data>
+  <data name="CalibrationOffset" xml:space="preserve">
+    <value>Calibration Offset</value>
+  </data>
+  <data name="CheckBattery" xml:space="preserve">
+    <value>Check Battery</value>
+  </data>
+  <data name="CheckEnclosureForAirLeaks" xml:space="preserve">
+    <value>Check Enclosure For Air Leaks</value>
+  </data>
+  <data name="CheckEnclosureForProblems" xml:space="preserve">
+    <value>Check Enclosure For Problems</value>
+  </data>
+  <data name="CheckPIDLoop" xml:space="preserve">
+    <value>Check PID Loop</value>
+  </data>
+  <data name="CheckSequenceOfOperation" xml:space="preserve">
+    <value>Check Sequence of Operation</value>
+  </data>
+  <data name="ComfortHealthAHUCO2VariationFromSetpoint" xml:space="preserve">
+    <value>Comfort &amp; Health  : AHU CO2 Variation from Setpoint</value>
+  </data>
+  <data name="ComfortHealthAHUDAPVariationFromSetpoint" xml:space="preserve">
+    <value>Comfort &amp; Health  : AHU DAP Variation from Setpoint</value>
+  </data>
+  <data name="ComfortHealthAHUDATVariationFromSetpoint" xml:space="preserve">
+    <value>Comfort &amp; Health  : AHU DA-T Variation from Setpoint</value>
+  </data>
+  <data name="Commands" xml:space="preserve">
+    <value>COMMANDS:</value>
+  </data>
+  <data name="CompleteReport" xml:space="preserve">
+    <value>Complete Report</value>
+  </data>
+  <data name="ControlPanel" xml:space="preserve">
+    <value>CONTROL PANEL:</value>
+  </data>
+  <data name="CoolingWaste" xml:space="preserve">
+    <value>Cooling Waste</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>DATABASE:</value>
+  </data>
+  <data name="DescriptionOfTask" xml:space="preserve">
+    <value>DESCRIPTION OF TASK</value>
+  </data>
+  <data name="FilterClean" xml:space="preserve">
+    <value>Filter Clean</value>
+  </data>
+  <data name="FilterDirty" xml:space="preserve">
+    <value>Filter Dirty</value>
+  </data>
+  <data name="FilterUndetermined" xml:space="preserve">
+    <value>Filter Undetermined</value>
+  </data>
+  <data name="FinalCompletion" xml:space="preserve">
+    <value>FINAL COMPLETION:</value>
+  </data>
+  <data name="FirmwareVersion" xml:space="preserve">
+    <value>Firmware Version</value>
+  </data>
+  <data name="HeatingWaste" xml:space="preserve">
+    <value>Heating Waste</value>
+  </data>
+  <data name="InventoryFieldControllerInformation" xml:space="preserve">
+    <value>Inventory : Field Controller Information</value>
+  </data>
+  <data name="InventoryFieldPointsInformation" xml:space="preserve">
+    <value>Inventory : Field Points Information</value>
+  </data>
+  <data name="InventorySupervisoryInformation" xml:space="preserve">
+    <value>Inventory : Supervisory Information</value>
+  </data>
+  <data name="LegacyNCMDecreasedBy" xml:space="preserve">
+    <value>Legacy NCMs decreased by </value>
+  </data>
+  <data name="MaintenanceReliabilityAlarmsEvents" xml:space="preserve">
+    <value>Maintenance &amp; Reliability :  Alarms/Events</value>
+  </data>
+  <data name="MaintenanceReliabilityDirtyFilters" xml:space="preserve">
+    <value>Maintenance &amp; Reliability  : Dirty Filters</value>
+  </data>
+  <data name="MaintenanceReliabilityDuplicateBACnetInstanceNumber" xml:space="preserve">
+    <value>Maintenance &amp; Reliability  : Duplicate BACnet Instance Number</value>
+  </data>
+  <data name="MaintenanceReliabilityMissingPoints" xml:space="preserve">
+    <value>Maintenance &amp; Reliability  : Missing Points</value>
+  </data>
+  <data name="MaintenanceReliabilityMissingTrendSamples" xml:space="preserve">
+    <value>Maintenance &amp; Reliability  : Missing Trend Samples</value>
+  </data>
+  <data name="MaintenanceReliabilityOverriddenPoints" xml:space="preserve">
+    <value>Maintenance &amp; Reliability  : Overridden points</value>
+  </data>
+  <data name="MaintenanceReliabilityUnboundReferences" xml:space="preserve">
+    <value>Maintenance &amp; Reliability  :  Unbound References</value>
+  </data>
+  <data name="NoOfAlarms" xml:space="preserve">
+    <value>No. of Alarms</value>
+  </data>
+  <data name="NoOfControllersWithDuplicateInstanceNumbers" xml:space="preserve">
+    <value>No. of Controllers With Duplicate Instance Numbers</value>
+  </data>
+  <data name="NoOfUnboundReferences" xml:space="preserve">
+    <value>No. of Unbound References</value>
+  </data>
+  <data name="NoOfValveClose" xml:space="preserve">
+    <value>No. of Valve Close</value>
+  </data>
+  <data name="NoOfValveOpen" xml:space="preserve">
+    <value>No. of Valve Open</value>
+  </data>
+  <data name="OperationalChecks" xml:space="preserve">
+    <value>OPERATIONAL CHECKS:</value>
+  </data>
+  <data name="OverriddenPoints" xml:space="preserve">
+    <value>Overridden points</value>
+  </data>
+  <data name="PerformanceSavingsAHUResetStrategies" xml:space="preserve">
+    <value>Performance &amp; Savings  :  AHU Reset Strategies</value>
+  </data>
+  <data name="PerformanceSavingsEconomizers" xml:space="preserve">
+    <value>Performance &amp; Savings  : Economizers</value>
+  </data>
+  <data name="PerformanceSavingsFanMotors" xml:space="preserve">
+    <value>Performance &amp; Savings  : Fan Motors</value>
+  </data>
+  <data name="PerformanceSavingsHeatingCoolingWaste" xml:space="preserve">
+    <value>Performance &amp; Savings  : Heating/Cooling Waste</value>
+  </data>
+  <data name="PerformanceSavingsOutdoorAHU" xml:space="preserve">
+    <value>Performance &amp; Savings  :  100% Outdoor AHU</value>
+  </data>
+  <data name="PerformanceSavingsScheduling" xml:space="preserve">
+    <value>Performance &amp; Savings  : Scheduling</value>
+  </data>
+  <data name="PointTypeTaskType" xml:space="preserve">
+    <value>Point Type &amp; Task Type</value>
+  </data>
+  <data name="ReportDate" xml:space="preserve">
+    <value>Report Date :</value>
+  </data>
+  <data name="Sensors" xml:space="preserve">
+    <value>SENSORS:</value>
+  </data>
+  <data name="StatusExcel" xml:space="preserve">
+    <value>STATUS:</value>
+  </data>
+  <data name="UpgradeMetasysServerVersionTo" xml:space="preserve">
+    <value>Upgrade Metasys Server Version to:</value>
+  </data>
+  <data name="VerifyAt0Percent" xml:space="preserve">
+    <value>Verify at 0%</value>
+  </data>
+  <data name="VerifyAt100Percent" xml:space="preserve">
+    <value>Verify at 100%</value>
+  </data>
+  <data name="VerifyCheck" xml:space="preserve">
+    <value>Verify/Check</value>
+  </data>
+  <data name="WhichNoLongerExceeds" xml:space="preserve">
+    <value>which no longer exceeds.</value>
+  </data>
+  <data name="ScheduleNoSchedule" xml:space="preserve">
+    <value>Schedule /No Schedule</value>
+  </data>
+  <data name="AccountName" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="AHUResetStrategyStatus" xml:space="preserve">
+    <value>AHU Reset Strategies Status</value>
+  </data>
+  <data name="Critical" xml:space="preserve">
+    <value>CRITICAL</value>
+  </data>
+  <data name="DirtyFiltersStatus" xml:space="preserve">
+    <value>Dirty Filters Status</value>
+  </data>
+  <data name="DuplicateBACnetInstanceNo" xml:space="preserve">
+    <value>Duplicate BACnet Instance No</value>
+  </data>
+  <data name="Economizers" xml:space="preserve">
+    <value>Economizers</value>
+  </data>
+  <data name="EconomizerStatus" xml:space="preserve">
+    <value>Economizers Status</value>
+  </data>
+  <data name="FanMotorsStatus" xml:space="preserve">
+    <value>Fan Motors Status</value>
+  </data>
+  <data name="Fault" xml:space="preserve">
+    <value>Fault</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="HeatingCoolingWasteStatus" xml:space="preserve">
+    <value>Heating/Cooling Waste Status</value>
+  </data>
+  <data name="InventoryFieldControllerInfo" xml:space="preserve">
+    <value>Inventory Field Controller Info</value>
+  </data>
+  <data name="InventoryScanSummary" xml:space="preserve">
+    <value>Inventory : Scan Summary</value>
+  </data>
+  <data name="TestingToAddinLabel" xml:space="preserve">
+    <value>Just some random text</value>
+  </data>
+  <data name="InventorySupervisoryInfo" xml:space="preserve">
+    <value>Inventory Supervisory Info</value>
+  </data>
+  <data name="Issue" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="MetasysServerInformation" xml:space="preserve">
+    <value>Metasys Server Information</value>
+  </data>
+  <data name="ObjectCategory" xml:space="preserve">
+    <value>Object Category</value>
+  </data>
+  <data name="OutdoorAHU100Status" xml:space="preserve">
+    <value>100% Outdoor AHU Status</value>
+  </data>
+  <data name="PercentOfMestasyCompliance" xml:space="preserve">
+    <value>% Of Metasys Compliance</value>
+  </data>
+  <data name="PVTToolReport" xml:space="preserve">
+    <value>Performance Verification Tool Report</value>
+  </data>
+  <data name="Recommended" xml:space="preserve">
+    <value>RECOMMENDED</value>
+  </data>
+  <data name="Routine" xml:space="preserve">
+    <value>ROUTINE</value>
+  </data>
+  <data name="ServerModel" xml:space="preserve">
+    <value>Server Model</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Server Name</value>
+  </data>
+  <data name="ServerVersion" xml:space="preserve">
+    <value>Server Version</value>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="TaskingPoint" xml:space="preserve">
+    <value>TaskingPoint</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TotalPoints" xml:space="preserve">
+    <value>Total Points</value>
+  </data>
+  <data name="JCIControllersVs3rdParty" xml:space="preserve">
+    <value>JCI controllers vs 3rd party controllers</value>
+  </data>
+  <data name="MetasysValidatedEnv" xml:space="preserve">
+    <value>Metasys Validated Environment? Y/N :</value>
+  </data>
+  <data name="NoOfControllersPerModel" xml:space="preserve">
+    <value>No. of controllers per model</value>
+  </data>
+  <data name="NoOfEnginesPerModel" xml:space="preserve">
+    <value>No. of engines per model name</value>
+  </data>
+  <data name="NoOfIntegrationsPerComm" xml:space="preserve">
+    <value>No. of integrations per communication protocol</value>
+  </data>
+  <data name="NoteComplNonCompl" xml:space="preserve">
+    <value>Note* : Compliant Devices - devices within all Metasys recommendations. Non-Compliant Devices - devices that exceed at least one Metasys recommendation.</value>
+  </data>
+  <data name="InternalReport" xml:space="preserve">
+    <value>Internal Report</value>
+  </data>
+  <data name="PreparedBy" xml:space="preserve">
+    <value>Prepared By : </value>
+  </data>
+  <data name="PreparedFor" xml:space="preserve">
+    <value>Prepared For : </value>
+  </data>
+  <data name="PreparedOn" xml:space="preserve">
+    <value>Prepared On : </value>
+  </data>
+  <data name="PVTPerformance" xml:space="preserve">
+    <value>PVT - Performance</value>
+  </data>
+  <data name="SiteSummary" xml:space="preserve">
+    <value>Site Summary</value>
+  </data>
+  <data name="SupervisorySummary" xml:space="preserve">
+    <value>Superviosry Summary</value>
+  </data>
+  <data name="TotalNoOfEngines" xml:space="preserve">
+    <value>Total No. of Engines :</value>
+  </data>
+  <data name="ULYN" xml:space="preserve">
+    <value>UL864? Y/N :</value>
+  </data>
+  <data name="IntegrationsSummary" xml:space="preserve">
+    <value>Integrations Summary</value>
+  </data>
+  <data name="ReportFootNote" xml:space="preserve">
+    <value>© {0} Johnson Controls, Inc.
+Confidential
+Do Not Copy (physically, electronically, or in any other media) without the express written permission of Johnson Controls, Inc.</value>
+  </data>
+  <data name="AnalogInput" xml:space="preserve">
+    <value>Analog Input :</value>
+  </data>
+  <data name="BinaryInput" xml:space="preserve">
+    <value>Binary Input :</value>
+  </data>
+  <data name="BinaryOutput" xml:space="preserve">
+    <value>Binary Output :</value>
+  </data>
+  <data name="ControllerSummary" xml:space="preserve">
+    <value>Controller Summary</value>
+  </data>
+  <data name="NetworkPoints" xml:space="preserve">
+    <value>Network Points</value>
+  </data>
+  <data name="PointSummary" xml:space="preserve">
+    <value>Point Summary</value>
+  </data>
+  <data name="TotalNoOfControllers" xml:space="preserve">
+    <value>Total Number of Controllers :</value>
+  </data>
+  <data name="TotalNoOfIntegrationTrunks" xml:space="preserve">
+    <value>Total Number of Integration Trunks :</value>
+  </data>
+  <data name="TotalObjects" xml:space="preserve">
+    <value>Total Objects</value>
+  </data>
+  <data name="TotalPhysicalPoints" xml:space="preserve">
+    <value>Total Physical Points</value>
+  </data>
+  <data name="TotalUnscheduledEquipments" xml:space="preserve">
+    <value>Total Unscheduled Equipments :</value>
+  </data>
+  <data name="AdminUserDescription" xml:space="preserve">
+    <value>It appears 100% of your users have adminstrative level privileges. Metasys allows users to assign a variety of</value>
+  </data>
+  <data name="DefaultUserDescription" xml:space="preserve">
+    <value>It appears that the Metasys default user account and password are being used frequently. This username and password combination is public knowledge and available to be found online. It is recommended that this account be disabled in order to better secure your BAS network.</value>
+  </data>
+  <data name="DormantAccountDescription" xml:space="preserve">
+    <value>There are {0} dormant user accounts. A dormant account is an account that has been inactive for the previous 6 months. It's recommended that you either delete or disable dormant user accounts.</value>
+  </data>
+  <data name="DormantAccountNotAvailable" xml:space="preserve">
+    <value>Dormant account not available.</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>NA</value>
+  </data>
+  <data name="WithoutVariation" xml:space="preserve">
+    <value>Without Variation</value>
+  </data>
+  <data name="WithVariation" xml:space="preserve">
+    <value>With Variation</value>
+  </data>
+  <data name="EnergyPerformanceSavings" xml:space="preserve">
+    <value>Energy Performance and Savings</value>
+  </data>
+  <data name="MetasysSystemVersion" xml:space="preserve">
+    <value>&lt;i&gt;Metasys&lt;/i&gt; System Software Version</value>
+  </data>
+  <data name="MSSVParagraphOne" xml:space="preserve">
+    <value>This site is not at the latest version of Metasys. Upgrading your Metasys system would provide additional benefits, including:</value>
+  </data>
+  <data name="Reliability" xml:space="preserve">
+    <value>Reliability</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="SiteDetails" xml:space="preserve">
+    <value>Site Details</value>
+  </data>
+  <data name="Standards" xml:space="preserve">
+    <value>Standards</value>
+  </data>
+  <data name="OpenCoolingValves" xml:space="preserve">
+    <value>Open Cooling Valves :</value>
+  </data>
+  <data name="OpenHeatingValves" xml:space="preserve">
+    <value>Open Heating Valves : </value>
+  </data>
+  <data name="OutdoorAHUs" xml:space="preserve">
+    <value>100% Outdoor AHUs</value>
+  </data>
+  <data name="PerfVerificationAssessmentFootnote" xml:space="preserve">
+    <value>Customer Confidential: Do Not Copy (physically, electronically, or in any other media) without the express written permission of Johnson Controls, Inc. © {0} Johnson Controls</value>
+  </data>
+  <data name="ReliableMetasysSystem" xml:space="preserve">
+    <value>A reliable &lt;i&gt;Metasys&lt;/i&gt; system:</value>
+  </data>
+  <data name="SDRelBParagrapph3" xml:space="preserve">
+    <value>Input and output points require routine physical inspections and calibrations to maintain system efficiency and performance.</value>
+  </data>
+  <data name="SDRelLstDataOne" xml:space="preserve">
+    <value>Increases the reliability of the equipment being controlled</value>
+  </data>
+  <data name="SDRelLstDataThree" xml:space="preserve">
+    <value>Increases the productivity of your facility management staff</value>
+  </data>
+  <data name="SDRelLstDataTwo" xml:space="preserve">
+    <value>Keeps the control system running at optimal performance</value>
+  </data>
+  <data name="ThisSiteMetasysValdiatedEnv" xml:space="preserve">
+    <value>This site is a &lt;i&gt;Metasys&lt;/i&gt; Validated Environment</value>
+  </data>
+  <data name="YourSystemContains" xml:space="preserve">
+    <value>Your system contains:</value>
+  </data>
+  <data name="AHUsWithDirtyFilter" xml:space="preserve">
+    <value>AHUs With Dirty Filter  :</value>
+  </data>
+  <data name="PVTFeatureAssessment" xml:space="preserve">
+    <value>PVT - Feature Assessment</value>
+  </data>
+  <data name="PVTInventory" xml:space="preserve">
+    <value>PVT - Inventory</value>
+  </data>
+  <data name="ScannedInformation" xml:space="preserve">
+    <value>Scanned Information</value>
+  </data>
+  <data name="TotalUnboundReferences" xml:space="preserve">
+    <value>Total Unbound References :</value>
+  </data>
+  <data name="EmptyChartSeriesMessage" xml:space="preserve">
+    <value>There is no or Empty Series</value>
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="AHUsWithCO2VariationFromSetPt" xml:space="preserve">
+    <value>AHU with CO2 Variation from Set Points :</value>
+  </data>
+  <data name="AHUsWithDAPSPVariationFromSetpt" xml:space="preserve">
+    <value>AHU DAP-SP Variation from Set Points :</value>
+  </data>
+  <data name="AHUsWithDATVariationFromSetpt" xml:space="preserve">
+    <value>AHU DA-T Variation from Set Points :</value>
+  </data>
+  <data name="BranchName" xml:space="preserve">
+    <value>Branch Name</value>
+  </data>
+  <data name="NormalUser" xml:space="preserve">
+    <value>Normal User</value>
+  </data>
+  <data name="PointCategory" xml:space="preserve">
+    <value>Point Category</value>
+  </data>
+  <data name="PointCount" xml:space="preserve">
+    <value>Point Count</value>
+  </data>
+  <data name="TotalAdminUsers" xml:space="preserve">
+    <value>Total Admin Users :</value>
+  </data>
+  <data name="TotalAlarmPoints" xml:space="preserve">
+    <value>Total Alarm Points :</value>
+  </data>
+  <data name="TotalCategorizedPoints" xml:space="preserve">
+    <value>Total Categorized Points</value>
+  </data>
+  <data name="TotalDefaultUsers" xml:space="preserve">
+    <value>Total Default Users :</value>
+  </data>
+  <data name="TotalDormantAccounts" xml:space="preserve">
+    <value>Total Dormant Accounts</value>
+  </data>
+  <data name="TotalDuplicateInstanceNumbers" xml:space="preserve">
+    <value>Total Duplicate Instance Numbers :</value>
+  </data>
+  <data name="TotalMissingPoints" xml:space="preserve">
+    <value>Total Missing Points : </value>
+  </data>
+  <data name="TotalMissingTrendPoints" xml:space="preserve">
+    <value>Total Missing Trend Points : </value>
+  </data>
+  <data name="TotalOverridenPoints" xml:space="preserve">
+    <value>Total Overriden Points :</value>
+  </data>
+  <data name="TotalULListedDevices" xml:space="preserve">
+    <value>Total U/L Listed Devices :</value>
+  </data>
+  <data name="BrosweExcelFile" xml:space="preserve">
+    <value>Browse Excel File</value>
+  </data>
+  <data name="ExportCanceled" xml:space="preserve">
+    <value>Export Canceled</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Export Failed</value>
+  </data>
+  <data name="ExportPreferences" xml:space="preserve">
+    <value>Export Preferences</value>
+  </data>
+  <data name="ExportSuccessfullyCompleted" xml:space="preserve">
+    <value>Export Successfully Completed.</value>
+  </data>
+  <data name="ImportCanceled" xml:space="preserve">
+    <value>Import Canceled</value>
+  </data>
+  <data name="ImportExportFileNotFoundMsg" xml:space="preserve">
+    <value>File is not present at specified path</value>
+  </data>
+  <data name="ImportFailed" xml:space="preserve">
+    <value>Import Failed</value>
+  </data>
+  <data name="ImportSearchingCriteria" xml:space="preserve">
+    <value>Import Searching Criteria</value>
+  </data>
+  <data name="ImportSuccessfullyCompleted" xml:space="preserve">
+    <value>Imported successfully.</value>
+  </data>
+  <data name="SavethePreferenceTemplateFile" xml:space="preserve">
+    <value>Save the Preference Template File</value>
+  </data>
+  <data name="EquipmentsTypes" xml:space="preserve">
+    <value>Equipments Types</value>
+  </data>
+  <data name="FieldPoints" xml:space="preserve">
+    <value>Field Points</value>
+  </data>
+  <data name="InstanceNumbers" xml:space="preserve">
+    <value>Instance Numbers</value>
+  </data>
+  <data name="ExportingStatusMessage" xml:space="preserve">
+    <value>Exporting. Please wait…</value>
+  </data>
+  <data name="WithoutEconomizer" xml:space="preserve">
+    <value>Without Economizer</value>
+  </data>
+  <data name="DLLRMessage" xml:space="preserve">
+    <value>Helps you save money by limiting energy use during times of peak demand. The Load Rolling feature helps save money by reducing overall energy consumption. The Demand Limiting (DL) portion of DLLR selectively turns off (sheds) equipment (loads), such as fans and lights, or adjusts setpoints to limit energy use during periods of the day that are traditionally high-use, peak times. The Load Rolling (LR) portion acts continuously to maintain a specified energy reduction by shedding non-critical loads. A facility can implement either one or both of these strategies. Figure 1 provides a simple concept drawing of DLLR. The utility company provides the rates, the demand meter measures the demand, and the algorithms in the DLLR object use this information to control the loads.</value>
+  </data>
+  <data name="MetasysUIMessage" xml:space="preserve">
+    <value>The Metasys UI provides a simple location-based navigation approach to finding information about the Metasys site, including the ability to search for any location or equipment by name and to bookmark a location or equipment in a web browser. All data displayed in the Metasys UI is organized in a dashboard format giving you the complete story of what is happening within a space, equipment, or central plant. You can access the Metasys UI from any type of client device with any screen size.</value>
+  </data>
+  <data name="OptimalStartMessage" xml:space="preserve">
+    <value>Aids in the reduction of energy costs during a building’s transition from unoccupied to occupied. This scenario is accomplished by turning on the preheating/precooling as late as possible to reach comfort levels prior to occupancy and turning off the heating/cooling as early as possible while maintaining occupied zone comfort until zone vacancy. This object allows you to save energy by coordinating the startup and shutdown times of equipment according to when people occupy certain rooms or areas of the building.</value>
+  </data>
+  <data name="SolarClockMessage" xml:space="preserve">
+    <value>The solar clock object computes Present Value (Night/Day), Sun Position (Azimuth and Elevation), and Sunrise and Sunset times based on the local position (Latitude and Longitude) and local time and time zone information. This information is needed to control external motorized louvers as part of bioclimatic facades for buildings and may also be used to position tracking photovoltaic solar arrays. The Sunrise/Sunset times can be used for external lighting control.</value>
+  </data>
+  <data name="TailoredSummaryMessage" xml:space="preserve">
+    <value>Allows you to view and modify large quantities of similar data in a tabular format. Tailored Summaries transform large data sets into powerful monitoring, configuration management, and diagnostic views. Factory supplied canned summary definition templates (available on the System Configuration Tool [SCT] media) make the creation of Tailored Summaries a snap.</value>
+  </data>
+  <data name="UserViewsMessage" xml:space="preserve">
+    <value>Inserts a user navigation view (also referred to as user view, user-defined navigation tree, and user-defined tree) item into the All Items navigation tree. In online mode, the user view appears as a separate tab in addition to the All Items navigation tree if the user has permission for the user view. In online and offline modes, the user view appears in the User Views folder under the Site in the All Items tree. Assign permissions to user views using the Security Administrator System in the online mode. You cannot assign permissions to user views in the SCT.</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="MetasysVersion" xml:space="preserve">
+    <value>&lt;i&gt; Metasys &lt;/i&gt;Version:  </value>
+  </data>
+  <data name="DataSource" xml:space="preserve">
+    <value>Data Source</value>
+  </data>
+  <data name="DiagnosticNcTooltip" xml:space="preserve">
+    <value>This file contains detailed NC performance data.</value>
+  </data>
+  <data name="GlobalDdlTooltip" xml:space="preserve">
+    <value>Retrieve this file from the PMI workstation.  This file contains the original system configuration data of the PMI system.</value>
+  </data>
+  <data name="MetascanTooltip" xml:space="preserve">
+    <value>Retrieve this file using the PMI Metascan utility LIT-XXXXX. This file contains high level system and NC information from the PMI system.</value>
+  </data>
+  <data name="NcDdlTooltip" xml:space="preserve">
+    <value>Retrieve the dll file(s) from a PMI workstation or the und file(s) using the method defined in this document LIT-XXXX. The dll files contain the original configuration data of the NC devices and their controllers.</value>
+  </data>
+  <data name="NetdataTooltip" xml:space="preserve">
+    <value>This file contains more detailed NC performance information which can also be found in a Diagnostics-NC.txt file.</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Select File</value>
+  </data>
+  <data name="SelectFiles" xml:space="preserve">
+    <value>Select File(s)</value>
+  </data>
+  <data name="ServerInfoParagraphPmi" xml:space="preserve">
+    <value>Specify the source for the PVT Scan, click the info icon for more information.</value>
+  </data>
+  <data name="PmiInventoryInfo" xml:space="preserve">
+    <value>Retrieves a list of operator workstations, NC devices and their controllers along with several key attributes of these controllers, hardware &amp; software objects, number of printers,  groups &amp; systems) and attempt to identify what equipment is being controlled.</value>
+  </data>
+  <data name="PmiInventoryInfoNote" xml:space="preserve">
+    <value>Note :  PMI inventory automatically scans points as well.</value>
+  </data>
+  <data name="AISlotsUsed" xml:space="preserve">
+    <value>AI Slots Used</value>
+  </data>
+  <data name="AOSlotsUsed" xml:space="preserve">
+    <value>AO Slots Used</value>
+  </data>
+  <data name="AssociatedSupervisory" xml:space="preserve">
+    <value>Associated Supervisory</value>
+  </data>
+  <data name="BatteryStatus" xml:space="preserve">
+    <value>Battery Status</value>
+  </data>
+  <data name="BaudRate" xml:space="preserve">
+    <value>Baud Rate</value>
+  </data>
+  <data name="BISlotsUsed" xml:space="preserve">
+    <value>BI Slots Used</value>
+  </data>
+  <data name="BOSlotsUsed" xml:space="preserve">
+    <value>BO Slots Used</value>
+  </data>
+  <data name="CurrentAcquiredMemory" xml:space="preserve">
+    <value>Current Acquired Memory</value>
+  </data>
+  <data name="CurrentAllocatedMemory" xml:space="preserve">
+    <value>Current Allocated Memory</value>
+  </data>
+  <data name="CurrentStatus" xml:space="preserve">
+    <value>Current Status</value>
+  </data>
+  <data name="DDLDecompileErrorDescription" xml:space="preserve">
+    <value>DDL Decompile Error Description</value>
+  </data>
+  <data name="DRAMRelease" xml:space="preserve">
+    <value>DRAM Release</value>
+  </data>
+  <data name="EPROMRelease" xml:space="preserve">
+    <value>EPROM Release</value>
+  </data>
+  <data name="HardwareAddress" xml:space="preserve">
+    <value>Hardware Address</value>
+  </data>
+  <data name="HardwareObjects" xml:space="preserve">
+    <value>Hardware Objects</value>
+  </data>
+  <data name="HideUnHideColumns" xml:space="preserve">
+    <value>Hide/Unhide Columns</value>
+  </data>
+  <data name="IntegrationsPortNoType" xml:space="preserve">
+    <value>Integrations (Port No Type)</value>
+  </data>
+  <data name="N1AddressOfNC" xml:space="preserve">
+    <value>N1 Address of NC</value>
+  </data>
+  <data name="NCSoftwareType" xml:space="preserve">
+    <value>NC Software Type</value>
+  </data>
+  <data name="Objects" xml:space="preserve">
+    <value>Objects</value>
+  </data>
+  <data name="PolePriority" xml:space="preserve">
+    <value>Pole Priority</value>
+  </data>
+  <data name="RunTimeDays" xml:space="preserve">
+    <value>Run time (days)</value>
+  </data>
+  <data name="SoftwareObjects" xml:space="preserve">
+    <value>Software Objects</value>
+  </data>
+  <data name="TrunkNumber" xml:space="preserve">
+    <value>Trunk Number</value>
+  </data>
+  <data name="FieldController" xml:space="preserve">
+    <value>Field Controller</value>
+  </data>
+  <data name="TotalQuantity" xml:space="preserve">
+    <value>Total Quantity</value>
+  </data>
+  <data name="RadGridAddNewRowString" xml:space="preserve">
+    <value>Click here to add a new row</value>
+  </data>
+  <data name="RadGridBestFitMenuItem" xml:space="preserve">
+    <value>Best Fit</value>
+  </data>
+  <data name="RadGridClearSortingMenuItem" xml:space="preserve">
+    <value>Clear Sorting</value>
+  </data>
+  <data name="RadGridClearValueMenuItem" xml:space="preserve">
+    <value>Clear Value</value>
+  </data>
+  <data name="RadGridColumnChooserFormCaption" xml:space="preserve">
+    <value>Column Chooser</value>
+  </data>
+  <data name="RadGridColumnChooserFormMessage" xml:space="preserve">
+    <value>Drag a column header from the\ngrid here to remove it from\nthe current view.</value>
+  </data>
+  <data name="RadGridColumnChooserMenuItem" xml:space="preserve">
+    <value>Column Chooser</value>
+  </data>
+  <data name="RadGridCompositeFilterFormErrorCaption" xml:space="preserve">
+    <value>Filter Error</value>
+  </data>
+  <data name="RadGridCompositeFilterFormInvalidFilter" xml:space="preserve">
+    <value>The composite filter descriptor is not valid.</value>
+  </data>
+  <data name="RadGridConditionalFormattingBtnAdd" xml:space="preserve">
+    <value>Add new rule</value>
+  </data>
+  <data name="RadGridConditionalFormattingBtnApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="RadGridConditionalFormattingBtnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RadGridConditionalFormattingBtnExpression" xml:space="preserve">
+    <value>Expression editor</value>
+  </data>
+  <data name="RadGridConditionalFormattingBtnOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RadGridConditionalFormattingBtnRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RadGridConditionalFormattingCaption" xml:space="preserve">
+    <value>Conditional Formatting Rules Manager</value>
+  </data>
+  <data name="RadGridConditionalFormattingChkApplyOnSelectedRows" xml:space="preserve">
+    <value>Apply this formatting if the row is selected</value>
+  </data>
+  <data name="RadGridConditionalFormattingChkApplyToRow" xml:space="preserve">
+    <value>Apply this formatting to entire row</value>
+  </data>
+  <data name="RadGridConditionalFormattingChooseOne" xml:space="preserve">
+    <value>[Choose one]</value>
+  </data>
+  <data name="RadGridConditionalFormattingCondition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="RadGridConditionalFormattingContains" xml:space="preserve">
+    <value>contains [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingDoesNotContain" xml:space="preserve">
+    <value>does not contain [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingEndsWith" xml:space="preserve">
+    <value>ends with [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingEqualsTo" xml:space="preserve">
+    <value>equals to [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingExpression" xml:space="preserve">
+    <value>Expression</value>
+  </data>
+  <data name="RadGridConditionalFormattingGrpConditions" xml:space="preserve">
+    <value>Rules</value>
+  </data>
+  <data name="RadGridConditionalFormattingGrpProperties" xml:space="preserve">
+    <value>Rule Properties</value>
+  </data>
+  <data name="RadGridConditionalFormattingIsBetween" xml:space="preserve">
+    <value>is between [Value1] and [Value2]</value>
+  </data>
+  <data name="RadGridConditionalFormattingIsGreaterThan" xml:space="preserve">
+    <value>is greater than [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingIsGreaterThanOrEqual" xml:space="preserve">
+    <value>is greater than or equal [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingIsLessThan" xml:space="preserve">
+    <value>is less than [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingIsLessThanOrEqual" xml:space="preserve">
+    <value>is less than or equal to [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingIsNotBetween" xml:space="preserve">
+    <value>is not between [Value1] and [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingIsNotEqualTo" xml:space="preserve">
+    <value>is not equal to [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingLblColumn" xml:space="preserve">
+    <value>Format only cells with</value>
+  </data>
+  <data name="RadGridConditionalFormattingLblFormat" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="RadGridConditionalFormattingLblName" xml:space="preserve">
+    <value>Rule name</value>
+  </data>
+  <data name="RadGridConditionalFormattingLblType" xml:space="preserve">
+    <value>Cell value</value>
+  </data>
+  <data name="RadGridConditionalFormattingLblValue1" xml:space="preserve">
+    <value>Value 1</value>
+  </data>
+  <data name="RadGridConditionalFormattingLblValue2" xml:space="preserve">
+    <value>Value 2</value>
+  </data>
+  <data name="RadGridConditionalFormattingMenuItem" xml:space="preserve">
+    <value>Conditional Formatting</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridCaseSensitive" xml:space="preserve">
+    <value>CaseSensitive</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridCaseSensitiveDescription" xml:space="preserve">
+    <value>Determines whether case-sensitive comparisons will be made when evaluating string values.</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridCellBackColor" xml:space="preserve">
+    <value>CellBackColor</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridCellBackColorDescription" xml:space="preserve">
+    <value>Enter the background color to be used for the cell.</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridCellForeColor" xml:space="preserve">
+    <value>CellForeColor</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridCellForeColorDescription" xml:space="preserve">
+    <value>Enter the foreground color to be used for the cell.</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridEnabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridEnabledDescription" xml:space="preserve">
+    <value>Determines whether the condition is enabled (can be evaluated and applied).</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridRowBackColor" xml:space="preserve">
+    <value>RowBackColor</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridRowBackColorDescription" xml:space="preserve">
+    <value>Enter the background color to be used for the entire row.</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridRowForeColor" xml:space="preserve">
+    <value>RowForeColor</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridRowForeColorDescription" xml:space="preserve">
+    <value>Enter the foreground color to be used for the entire row.</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridRowTextAlignment" xml:space="preserve">
+    <value>RowTextAlignment</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridRowTextAlignmentDescription" xml:space="preserve">
+    <value>Enter the alignment to be used for the cell values, when ApplyToRow is true.</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridTextAlignment" xml:space="preserve">
+    <value>TextAlignment</value>
+  </data>
+  <data name="RadGridConditionalFormattingPropertyGridTextAlignmentDescription" xml:space="preserve">
+    <value>Enter the alignment to be used for the cell values.</value>
+  </data>
+  <data name="RadGridConditionalFormattingRuleAppliesOn" xml:space="preserve">
+    <value>Rule applies to</value>
+  </data>
+  <data name="RadGridConditionalFormattingSortAlphabetically" xml:space="preserve">
+    <value>Sort columns alphabetically</value>
+  </data>
+  <data name="RadGridConditionalFormattingStartsWith" xml:space="preserve">
+    <value>starts with [Value1]</value>
+  </data>
+  <data name="RadGridConditionalFormattingTextBoxExpression" xml:space="preserve">
+    <value>Expression</value>
+  </data>
+  <data name="RadGridCopyMenuItem" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="RadGridCustomFilterDialogBtnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RadGridCustomFilterDialogBtnOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RadGridCustomFilterDialogCaption" xml:space="preserve">
+    <value>RadGridView Filter Dialog [{0}]</value>
+  </data>
+  <data name="RadGridCustomFilterDialogCheckBoxNot" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="RadGridCustomFilterDialogLabel" xml:space="preserve">
+    <value>Show rows where</value>
+  </data>
+  <data name="RadGridCustomFilterDialogRbAnd" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="RadGridCustomFilterDialogRbOr" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="RadGridCustomFilterMenuItem" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="RadGridCutMenuItem" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="RadGridDeleteRowMenuItem" xml:space="preserve">
+    <value>Delete Row</value>
+  </data>
+  <data name="RadGridEditMenuItem" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="RadGridExpressionFormCancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RadGridExpressionFormConstants" xml:space="preserve">
+    <value>Constants</value>
+  </data>
+  <data name="RadGridExpressionFormDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RadGridExpressionFormFields" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="RadGridExpressionFormFunctions" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="RadGridExpressionFormFunctionsAggregate" xml:space="preserve">
+    <value>Aggregate</value>
+  </data>
+  <data name="RadGridExpressionFormFunctionsDateTime" xml:space="preserve">
+    <value>Date-Time</value>
+  </data>
+  <data name="RadGridExpressionFormFunctionsLogical" xml:space="preserve">
+    <value>Logical</value>
+  </data>
+  <data name="RadGridExpressionFormFunctionsMath" xml:space="preserve">
+    <value>Math</value>
+  </data>
+  <data name="RadGridExpressionFormFunctionsOther" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="RadGridExpressionFormFunctionsText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="RadGridExpressionFormOKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RadGridExpressionFormOperators" xml:space="preserve">
+    <value>Operators</value>
+  </data>
+  <data name="RadGridExpressionFormResultPreview" xml:space="preserve">
+    <value>Result preview</value>
+  </data>
+  <data name="RadGridExpressionFormTitle" xml:space="preserve">
+    <value>Expression Builder</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipDivide" xml:space="preserve">
+    <value>Divide</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipEqual" xml:space="preserve">
+    <value>Equal</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipGreater" xml:space="preserve">
+    <value>Greater</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipGreaterOrEqual" xml:space="preserve">
+    <value>Greater Or Equal</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipLess" xml:space="preserve">
+    <value>Less</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipLessOrEqual" xml:space="preserve">
+    <value>Less Or Equal</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipMinus" xml:space="preserve">
+    <value>Minus</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipModulo" xml:space="preserve">
+    <value>Modulo</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipMultiply" xml:space="preserve">
+    <value>Multiply</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipNotEqual" xml:space="preserve">
+    <value>Not Equal</value>
+  </data>
+  <data name="RadGridExpressionFormTooltipPlus" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="RadGridExpressionMenuItem" xml:space="preserve">
+    <value>Expression</value>
+  </data>
+  <data name="RadGridFilterCompositeNotOperator" xml:space="preserve">
+    <value>NOT</value>
+  </data>
+  <data name="RadGridFilterFunctionDuringLast7days" xml:space="preserve">
+    <value>During last 7 days</value>
+  </data>
+  <data name="RadGridFilterFunctionSelectedDates" xml:space="preserve">
+    <value>Filter by specific dates</value>
+  </data>
+  <data name="RadGridFilterFunctionToday" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="RadGridFilterFunctionYesterday" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="RadGridFilterLogicalOperatorAnd" xml:space="preserve">
+    <value>AND</value>
+  </data>
+  <data name="RadGridFilterLogicalOperatorOr" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="RadGridFilterMenuAvailableFilters" xml:space="preserve">
+    <value>Available Filters</value>
+  </data>
+  <data name="RadGridFilterMenuBlanks" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="RadGridFilterMenuButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RadGridFilterMenuButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RadGridFilterMenuClearFilters" xml:space="preserve">
+    <value>Clear Filter</value>
+  </data>
+  <data name="RadGridFilterMenuSearchBoxText" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="RadGridFilterMenuSelectionAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="RadGridFilterMenuSelectionAllSearched" xml:space="preserve">
+    <value>All Search Result</value>
+  </data>
+  <data name="RadGridFilterMenuSelectionNotNull" xml:space="preserve">
+    <value>Not Null</value>
+  </data>
+  <data name="RadGridFilterMenuSelectionNull" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="RadGridFilterOperatorCustom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="RadGridFilterOperatorIsContainedIn" xml:space="preserve">
+    <value>ContainedIn</value>
+  </data>
+  <data name="RadGridFilterOperatorIsLike" xml:space="preserve">
+    <value>Like</value>
+  </data>
+  <data name="RadGridFilterOperatorNoFilter" xml:space="preserve">
+    <value>No filter</value>
+  </data>
+  <data name="RadGridFilterOperatorNotBetween" xml:space="preserve">
+    <value>NotBetween</value>
+  </data>
+  <data name="RadGridFilterOperatorNotEqualTo" xml:space="preserve">
+    <value>NotEquals</value>
+  </data>
+  <data name="RadGridFilterOperatorNotIsContainedIn" xml:space="preserve">
+    <value>NotContainedIn</value>
+  </data>
+  <data name="RadGridFilterOperatorNotIsEmpty" xml:space="preserve">
+    <value>NotEmpty</value>
+  </data>
+  <data name="RadGridFilterOperatorNotIsLike" xml:space="preserve">
+    <value>NotLike</value>
+  </data>
+  <data name="RadGridFilterOperatorNotIsNull" xml:space="preserve">
+    <value>NotNull</value>
+  </data>
+  <data name="RadGridFilterOperatorStartsWith" xml:space="preserve">
+    <value>StartsWith</value>
+  </data>
+  <data name="RadGridGroupByThisColumnMenuItem" xml:space="preserve">
+    <value>Group by this column</value>
+  </data>
+  <data name="RadGridGroupingPanelDefaultMessage" xml:space="preserve">
+    <value>Drag a column here to group by this column.</value>
+  </data>
+  <data name="RadGridGroupingPanelHeader" xml:space="preserve">
+    <value>Group by</value>
+  </data>
+  <data name="RadGridHideGroupMenuItem" xml:space="preserve">
+    <value>Hide Group</value>
+  </data>
+  <data name="RadGridHideMenuItem" xml:space="preserve">
+    <value>Hide Column</value>
+  </data>
+  <data name="RadGridNoDataText" xml:space="preserve">
+    <value>No data to display</value>
+  </data>
+  <data name="RadGridPagingPanelOfPagesLabel" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="RadGridPagingPanelPagesLabel" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="RadGridPasteMenuItem" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="RadGridPinAtBottomMenuItem" xml:space="preserve">
+    <value>Pin at bottom</value>
+  </data>
+  <data name="RadGridPinAtLeftMenuItem" xml:space="preserve">
+    <value>Pin at left</value>
+  </data>
+  <data name="RadGridPinAtRightMenuItem" xml:space="preserve">
+    <value>Pin at right</value>
+  </data>
+  <data name="RadGridPinAtTopMenuItem" xml:space="preserve">
+    <value>Pin at top</value>
+  </data>
+  <data name="RadGridPinMenuItem" xml:space="preserve">
+    <value>Pinned state</value>
+  </data>
+  <data name="RadGridSortAscendingMenuItem" xml:space="preserve">
+    <value>Sort Ascending</value>
+  </data>
+  <data name="RadGridSortDescendingMenuItem" xml:space="preserve">
+    <value>Sort Descending</value>
+  </data>
+  <data name="RadGridUngroupThisColumn" xml:space="preserve">
+    <value>Ungroup this column</value>
+  </data>
+  <data name="RadGridUnpinMenuItem" xml:space="preserve">
+    <value>Unpin Column</value>
+  </data>
+  <data name="RadGridUnpinRowMenuItem" xml:space="preserve">
+    <value>Unpin Row</value>
+  </data>
+  <data name="RadGridConditionalFormattingPleaseSelectCellValidValue" xml:space="preserve">
+    <value>Please select valid cell value</value>
+  </data>
+  <data name="RadGridConditionalFormattingPleaseSetCellValidExpression" xml:space="preserve">
+    <value>Please set valid cell expression</value>
+  </data>
+  <data name="RadGridConditionalFormattingPleaseSetCellValidValue" xml:space="preserve">
+    <value>Please set valid cell value</value>
+  </data>
+  <data name="RadGridConditionalFormattingPleaseSetCellValidValues" xml:space="preserve">
+    <value>Please set valid cell values</value>
+  </data>
+  <data name="RadGridFilterFunctionIsEmpty" xml:space="preserve">
+    <value>Is Empty</value>
+  </data>
+  <data name="RadGridFilterFunctionIsNotEmpty" xml:space="preserve">
+    <value>Is Not Empty</value>
+  </data>
+  <data name="RadGridFormattingInvalidParameters" xml:space="preserve">
+    <value>Invalid Parameters</value>
+  </data>
+  <data name="RadGridFormattingItem" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="FlashSheet" xml:space="preserve">
+    <value>Flash sheet: </value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instructions: </value>
+  </data>
+  <data name="ImportRulePreferenceHeader" xml:space="preserve">
+    <value>Please select the Excel file from which you want to import the rule
+preferences.</value>
+  </data>
+  <data name="ImportRulePreferences" xml:space="preserve">
+    <value>Import Rule Preferences</value>
+  </data>
+  <data name="MetasysLicense" xml:space="preserve">
+    <value>Metasys License</value>
+  </data>
+  <data name="MUIImplemented" xml:space="preserve">
+    <value>MUI Implemented</value>
+  </data>
+  <data name="SelectMUIOptions" xml:space="preserve">
+    <value>Select MUI Options</value>
+  </data>
+  <data name="SelectSqlServer" xml:space="preserve">
+    <value>Select SQL Server</value>
+  </data>
+  <data name="SelectWindowsOs" xml:space="preserve">
+    <value>Select Windows OS</value>
+  </data>
+  <data name="SiteInfo" xml:space="preserve">
+    <value>Site Information</value>
+  </data>
+  <data name="SqlServerVersion" xml:space="preserve">
+    <value>SQL Server Version</value>
+  </data>
+  <data name="WindowsOs" xml:space="preserve">
+    <value>Windows OS</value>
+  </data>
+  <data name="DoNotKnow" xml:space="preserve">
+    <value>Don't Know</value>
+  </data>
+  <data name="UpdateScanInfo" xml:space="preserve">
+    <value>Update Scan Information</value>
+  </data>
+  <data name="WorkstationInfo" xml:space="preserve">
+    <value>Workstation Information</value>
+  </data>
+  <data name="NetworkName" xml:space="preserve">
+    <value>Network Name :</value>
+  </data>
+  <data name="MetasysPmiVersion" xml:space="preserve">
+    <value>Metasys PMI Version :</value>
+  </data>
+  <data name="OsVersion" xml:space="preserve">
+    <value>OS Version :</value>
+  </data>
+  <data name="NoOfWorkstations" xml:space="preserve">
+    <value>No. of Workstations :</value>
+  </data>
+  <data name="N1Address" xml:space="preserve">
+    <value>N1 Address</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="C_DoNotKnow" xml:space="preserve">
+    <value>Don't Know</value>
+  </data>
+  <data name="C_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="C_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="OperationalStatus" xml:space="preserve">
+    <value>Operational Status</value>
+  </data>
+  <data name="OfflineIssue" xml:space="preserve">
+    <value>Controller is offline.</value>
+  </data>
+  <data name="OfflineControllerList" xml:space="preserve">
+    <value>Offline Controller List</value>
+  </data>
+  <data name="SavetheOfflineControllerFile" xml:space="preserve">
+    <value>Save the Offline Controller File</value>
+  </data>
+  <data name="EngineName" xml:space="preserve">
+    <value>Engine Name</value>
+  </data>
+  <data name="ExportOfflineControllerList" xml:space="preserve">
+    <value>Export Offline Controller List</value>
+  </data>
+  <data name="NoOfflineControllers" xml:space="preserve">
+    <value>None of the controllers are offline.</value>
+  </data>
+  <data name="VisioRiserView" xml:space="preserve">
+    <value>Visio Riser View</value>
+  </data>
+  <data name="ACM" xml:space="preserve">
+    <value>ACM</value>
+  </data>
+  <data name="AI" xml:space="preserve">
+    <value>AI</value>
+  </data>
+  <data name="AOD" xml:space="preserve">
+    <value>AOD</value>
+  </data>
+  <data name="AOS" xml:space="preserve">
+    <value>AOS</value>
+  </data>
+  <data name="BI" xml:space="preserve">
+    <value>BI</value>
+  </data>
+  <data name="BO" xml:space="preserve">
+    <value>BO</value>
+  </data>
+  <data name="CS" xml:space="preserve">
+    <value>CS</value>
+  </data>
+  <data name="MSI" xml:space="preserve">
+    <value>MSI</value>
+  </data>
+  <data name="MSO" xml:space="preserve">
+    <value>MSO</value>
+  </data>
+  <data name="MC" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="TotalNoOfOfflineControllers" xml:space="preserve">
+    <value>Total Number of Offline Controllers:</value>
+  </data>
+  <data name="WindowsOSVersion" xml:space="preserve">
+    <value>Windows OS Version :</value>
+  </data>
+  <data name="SupervisoryDevice" xml:space="preserve">
+    <value>Supervisory Device</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade10" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade11" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade12" xml:space="preserve">
+    <value>Significant security enhancements – including secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade5" xml:space="preserve">
+    <value>Ability to collect, summarize, and present building data in relevant and usable ways with Advanced Reporting feature</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade6" xml:space="preserve">
+    <value>Ability to focus energy-reduction activities by identifying all similar objects and determining energy outliers with Tailored Summaries feature</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade7" xml:space="preserve">
+    <value>Access to reports that aggregate energy-related data to identify opportunities to reduce energy spend</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade8" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys3_0to10_0Upgrade9" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade10" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade11" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade12" xml:space="preserve">
+    <value>Significant security enhancements – including secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade5" xml:space="preserve">
+    <value>Ability to collect, summarize, and present building data in relevant and usable ways with Advanced Reporting feature</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade6" xml:space="preserve">
+    <value>Ability to focus energy-reduction activities by identifying all similar objects and determining energy outliers with Tailored Summaries feature</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade7" xml:space="preserve">
+    <value>Access to reports that aggregate energy-related data to identify opportunities to reduce energy spend</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade8" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys3_1to10_0Upgrade9" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade10" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade11" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade5" xml:space="preserve">
+    <value>Ability to focus energy-reduction activities by identifying all similar objects and determining energy outliers with Tailored Summaries feature</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade6" xml:space="preserve">
+    <value>Access to reports that aggregate energy-related data to identify opportunities to reduce energy spend</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade7" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade8" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys4_0to10_0Upgrade9" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade10" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade11" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade12" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade5" xml:space="preserve">
+    <value>Ability to focus energy-reduction activities by identifying all similar objects and determining energy outliers with Tailored Summaries feature</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade6" xml:space="preserve">
+    <value>Access to reports that aggregate energy-related data to identify opportunities to reduce energy spend</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade7" xml:space="preserve">
+    <value>New BACnet/IP field equipment controllers for increased network performance and to help future-proof building system networks</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade8" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys4_1to10_0Upgrade9" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade10" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade5" xml:space="preserve">
+    <value>Time limits on overridden points to reduce potential for energy waste, expanded to include other integrations</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade6" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade7" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade8" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys5_0to10_0Upgrade9" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade10" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade5" xml:space="preserve">
+    <value>Time limits on overridden points to reduce potential for energy waste, expanded to include other integrations</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade6" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade7" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade8" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys5_1to10_0Upgrade9" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade10" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade5" xml:space="preserve">
+    <value>Time limits on overridden points to reduce potential for energy waste, expanded to include other integrations</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade6" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade7" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade8" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys5_2to10_0Upgrade9" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade10" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade5" xml:space="preserve">
+    <value>Time limits on overridden points to reduce potential for energy waste, expanded to include other integrations</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade6" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade7" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade8" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys5_3to10_0Upgrade9" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade10" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade5" xml:space="preserve">
+    <value>Time limits on overridden points to reduce potential for energy waste, expanded to include other integrations</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade6" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade7" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade8" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys6_0to10_0Upgrade9" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade10" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade5" xml:space="preserve">
+    <value>Time limits on overridden points to reduce potential for energy waste, expanded to include other integrations</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade6" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade7" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade8" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys6_1to10_0Upgrade9" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade1" xml:space="preserve">
+    <value>Intuitive navigation of system by building spaces to clearly communicate equipment relationships for faster troubleshooting and less time on task</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade10" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade2" xml:space="preserve">
+    <value>Mobile optimized, browser based user interface for access from anywhere, at anytime, on any device (no apps or downloads required)</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade4" xml:space="preserve">
+    <value>Standardized MODBUS integration and BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade5" xml:space="preserve">
+    <value>Time limits on overridden points to reduce potential for energy waste, expanded to include other integrations</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade6" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade7" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade8" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys6_5to10_0Upgrade9" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade1" xml:space="preserve">
+    <value>Ability to quickly identify and prioritize alarms for faster troubleshooting with new Alarm Manager</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade10" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including password management and secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade2" xml:space="preserve">
+    <value>Streamlined scheduling to reduce time on task</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade3" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade4" xml:space="preserve">
+    <value>Ability to quickly search for data and issue bulk commands with new Advanced Search &amp; Reporting makes it easier than ever to get critical data out of system</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade5" xml:space="preserve">
+    <value>BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade6" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade7" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade8" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys7_0to10_0Upgrade9" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade1" xml:space="preserve">
+    <value>Photo-realistic graphics for cleaner visualization, right from your mobile device</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade2" xml:space="preserve">
+    <value>Ability to quickly search for data and issue bulk commands with new Advanced Search &amp; Reporting makes it easier than ever to get critical data out of system</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade3" xml:space="preserve">
+    <value>Access to all objects defined under the Metasys component hierarchy (similar to the All Items tree in the Site Management Portal), for a familiar navigation and status experience and faster delivery of the Metasys user interface</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade4" xml:space="preserve">
+    <value>BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade5" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade6" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade7" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade8" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys8_0to10_0Upgrade9" xml:space="preserve">
+    <value>Significant security enhancements through adoption of IT best practices – including secure, encrypted communications with HTTPS – to prevent unauthorized access</value>
+  </data>
+  <data name="Metasys8_1to10_0Upgrade1" xml:space="preserve">
+    <value>Ability to quickly search for data and issue bulk commands with new Advanced Search &amp; Reporting makes it easier than ever to get critical data out of system</value>
+  </data>
+  <data name="Metasys8_1to10_0Upgrade2" xml:space="preserve">
+    <value>Access to all objects defined under the Metasys component hierarchy (similar to the All Items tree in the Site Management Portal), for a familiar navigation and status experience and faster delivery of the Metasys user interface</value>
+  </data>
+  <data name="Metasys8_1to10_0Upgrade3" xml:space="preserve">
+    <value>BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys8_1to10_0Upgrade4" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys8_1to10_0Upgrade5" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys8_1to10_0Upgrade6" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys8_1to10_0Upgrade7" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="Metasys9_0to10_0Upgrade1" xml:space="preserve">
+    <value>Ability to schedule reports to be delivered via email and be save report templates to reduce time on task</value>
+  </data>
+  <data name="Metasys9_0to10_0Upgrade2" xml:space="preserve">
+    <value>BACnet® Protocol Revision 15 support for easier integrations with other systems</value>
+  </data>
+  <data name="Metasys9_0to10_0Upgrade3" xml:space="preserve">
+    <value>New and improved integrations with SIMPLEX® Fire System, C·Cure 9000 Access Control System, victor Video Management System and lighting systems from leading lighting providers</value>
+  </data>
+  <data name="Metasys9_0to10_0Upgrade4" xml:space="preserve">
+    <value>New REST-compliant Metasys Application Programming Interface that enables data to be securely extracted from Metasys and integrated with third-party data visualization tools</value>
+  </data>
+  <data name="Metasys9_0to10_0Upgrade5" xml:space="preserve">
+    <value>MRP ring-enabled support for the BACnet/IP field equipment controllers (introduced at Metasys 9.0), so they can be configured in a ring network for heightened resiliency</value>
+  </data>
+  <data name="Metasys9_0to10_0Upgrade6" xml:space="preserve">
+    <value>Two new equipment controllers – a General Purpose Application Controller and a VAV Box Controller – with a sleek, modern design, removable screw terminal blocks for easy installation, high capacity memory and fast processing</value>
+  </data>
+  <data name="MigrationNotice" xml:space="preserve">
+    <value>Do you want to migrate projects from your last installed
+PVT instance?</value>
+  </data>
+  <data name="MigrationWarning" xml:space="preserve">
+    <value>(Skipping this step may result in a complete loss
+of project history)</value>
+  </data>
+  <data name="ProjectMigration" xml:space="preserve">
+    <value>Project Migration</value>
+  </data>
+  <data name="Migrate" xml:space="preserve">
+    <value>Migrate</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="ServerOSExcelLabel" xml:space="preserve">
+    <value>Server OS</value>
+  </data>
+  <data name="SQLVersionExcelLabel" xml:space="preserve">
+    <value>SQL Version</value>
+  </data>
+  <data name="LastBackupExcelLabel" xml:space="preserve">
+    <value>Last Backup</value>
+  </data>
+  <data name="NoOfSupervisoryDevicesExcelLabel" xml:space="preserve">
+    <value>No. of Supervisory Devices </value>
+  </data>
+  <data name="NoOfFieldControllersExcelLabel" xml:space="preserve">
+    <value>No. of Field Controllers </value>
+  </data>
+  <data name="NoOfObjectsExcelLabel" xml:space="preserve">
+    <value>No. of Objects</value>
+  </data>
+  <data name="OsVersionExcelLabel" xml:space="preserve">
+    <value>OS Version</value>
+  </data>
+  <data name="MigratingDatabase" xml:space="preserve">
+    <value>Migrating Database</value>
+  </data>
+  <data name="MigrationCancelled" xml:space="preserve">
+    <value>Database migration got cancelled.</value>
+  </data>
+  <data name="MigrationCompleted" xml:space="preserve">
+    <value>Database migration is completed successfully.</value>
+  </data>
+  <data name="MigrationError" xml:space="preserve">
+    <value>Some error occured while migrating the database.</value>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>Wait for</value>
+  </data>
+</root>
